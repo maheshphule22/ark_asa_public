@@ -1,0 +1,3804 @@
+{
+	"query": {
+		"title": "Data:Maps/Exploration/The Island/ASA",
+		"revisionId": 527148,
+		"markers": {
+			"obelisk-blue": [
+				[
+					21.423,
+					21.544
+				]
+			],
+			"obelisk-green": [
+				[
+					60.449,
+					76.021
+				]
+			],
+			"obelisk-red": [
+				[
+					84.871,
+					12.051
+				]
+			],
+			"cave-entrance": [
+				[
+					40.162,
+					46.574,
+					{
+						"label": "Central Cave",
+						"desc": "<p>Holds:</p><ul><li><a href=\"/wiki/Artifact_of_the_Clever\" title=\"Artifact of the Clever\"><img alt=\"\" src=\"/images/thumb/8/80/Artifact_of_the_Clever.png/20px-Artifact_of_the_Clever.png\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"itemlink\" data-file-width=\"256\" data-file-height=\"256\" /></a>&#160;<a href=\"/wiki/Artifact_of_the_Clever\" title=\"Artifact of the Clever\">Artifact of the Clever</a></li></ul>",
+						"image": [
+							"/images/thumb/6/62/ASA_TheIsland_CaveEntrance_Central_Cave.jpg/288px-ASA_TheIsland_CaveEntrance_Central_Cave.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					14.122,
+					13.914,
+					{
+						"label": "North West Cave",
+						"desc": "<p>Holds:</p><ul><li><a href=\"/wiki/Artifact_of_the_Skylord\" title=\"Artifact of the Skylord\"><img alt=\"\" src=\"/images/thumb/e/e4/Artifact_of_the_Skylord.png/20px-Artifact_of_the_Skylord.png\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"itemlink\" data-file-width=\"256\" data-file-height=\"256\" /></a>&#160;<a href=\"/wiki/Artifact_of_the_Skylord\" title=\"Artifact of the Skylord\">Artifact of the Skylord</a></li></ul>",
+						"image": [
+							"/images/thumb/0/0a/ASA_TheIsland_CaveEntrance_North_West_Cave.jpg/288px-ASA_TheIsland_CaveEntrance_North_West_Cave.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					85.285,
+					54.171,
+					{
+						"label": "Lower South Cave",
+						"desc": "<p>Holds:</p><ul><li><a href=\"/wiki/Artifact_of_the_Hunter\" title=\"Artifact of the Hunter\"><img alt=\"\" src=\"/images/thumb/2/2f/Artifact_of_the_Hunter.png/20px-Artifact_of_the_Hunter.png\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"itemlink\" data-file-width=\"256\" data-file-height=\"256\" /></a>&#160;<a href=\"/wiki/Artifact_of_the_Hunter\" title=\"Artifact of the Hunter\">Artifact of the Hunter</a></li></ul>",
+						"image": [
+							"/images/thumb/c/c9/ASA_TheIsland_CaveEntrance_Lower_South_Cave.jpg/288px-ASA_TheIsland_CaveEntrance_Lower_South_Cave.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					8.952,
+					91.317,
+					{
+						"label": "North East Cave",
+						"desc": "<p>Holds:</p><ul><li><a href=\"/wiki/Artifact_of_the_Devourer\" title=\"Artifact of the Devourer\"><img alt=\"\" src=\"/images/thumb/7/7c/Artifact_of_the_Devourer.png/20px-Artifact_of_the_Devourer.png\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"itemlink\" data-file-width=\"256\" data-file-height=\"256\" /></a>&#160;<a href=\"/wiki/Artifact_of_the_Devourer\" title=\"Artifact of the Devourer\">Artifact of the Devourer</a></li></ul>",
+						"image": [
+							"/images/thumb/d/d2/ASA_TheIsland_CaveEntrance_North_East_Cave.jpg/288px-ASA_TheIsland_CaveEntrance_North_East_Cave.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					71.323,
+					57.222,
+					{
+						"label": "Upper South Cave",
+						"desc": "<p>Holds:</p><ul><li><a href=\"/wiki/Artifact_of_the_Pack\" title=\"Artifact of the Pack\"><img alt=\"\" src=\"/images/thumb/4/41/Artifact_of_the_Pack.png/20px-Artifact_of_the_Pack.png\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"itemlink\" data-file-width=\"256\" data-file-height=\"256\" /></a>&#160;<a href=\"/wiki/Artifact_of_the_Pack\" title=\"Artifact of the Pack\">Artifact of the Pack</a></li></ul>",
+						"image": [
+							"/images/thumb/b/b7/ASA_TheIsland_CaveEntrance_Upper_South_Cave.jpg/288px-ASA_TheIsland_CaveEntrance_Upper_South_Cave.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					74.069,
+					92.166,
+					{
+						"label": "South East Cave",
+						"desc": "<p>Holds:</p><ul><li><a href=\"/wiki/Artifact_of_the_Massive\" title=\"Artifact of the Massive\"><img alt=\"\" src=\"/images/thumb/c/c6/Artifact_of_the_Massive.png/20px-Artifact_of_the_Massive.png\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"itemlink\" data-file-width=\"256\" data-file-height=\"256\" /></a>&#160;<a href=\"/wiki/Artifact_of_the_Massive\" title=\"Artifact of the Massive\">Artifact of the Massive</a></li></ul>",
+						"image": [
+							"/images/thumb/6/67/ASA_TheIsland_CaveEntrance_South_East_Cave.jpg/288px-ASA_TheIsland_CaveEntrance_South_East_Cave.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					64.823,
+					35.177,
+					{
+						"label": "Swamp Cave",
+						"desc": "<p>Holds:</p><ul><li><a href=\"/wiki/Artifact_of_the_Immune\" title=\"Artifact of the Immune\"><img alt=\"\" src=\"/images/thumb/2/23/Artifact_of_the_Immune.png/20px-Artifact_of_the_Immune.png\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"itemlink\" data-file-width=\"256\" data-file-height=\"256\" /></a>&#160;<a href=\"/wiki/Artifact_of_the_Immune\" title=\"Artifact of the Immune\">Artifact of the Immune</a></li></ul>",
+						"image": [
+							"/images/thumb/8/83/ASA_TheIsland_CaveEntrance_Swamp_Cave.jpg/288px-ASA_TheIsland_CaveEntrance_Swamp_Cave.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					25.991,
+					29.008,
+					{
+						"label": "Snow Cave",
+						"desc": "<p>Holds:</p><ul><li><a href=\"/wiki/Artifact_of_the_Strong\" title=\"Artifact of the Strong\"><img alt=\"\" src=\"/images/thumb/5/5b/Artifact_of_the_Strong.png/20px-Artifact_of_the_Strong.png\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"itemlink\" data-file-width=\"256\" data-file-height=\"256\" /></a>&#160;<a href=\"/wiki/Artifact_of_the_Strong\" title=\"Artifact of the Strong\">Artifact of the Strong</a></li></ul>",
+						"image": [
+							"/images/thumb/a/a9/ASA_TheIsland_CaveEntrance_Snow_Cave.jpg/288px-ASA_TheIsland_CaveEntrance_Snow_Cave.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					54.122,
+					3.816,
+					{
+						"label": "The Caverns of Lost Faith",
+						"desc": "<p>Holds:</p><ul><li><a href=\"/wiki/Artifact_of_the_Brute\" title=\"Artifact of the Brute\"><img alt=\"\" src=\"/images/thumb/4/4b/Artifact_of_the_Brute.png/20px-Artifact_of_the_Brute.png\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"itemlink\" data-file-width=\"256\" data-file-height=\"256\" /></a>&#160;<a href=\"/wiki/Artifact_of_the_Brute\" title=\"Artifact of the Brute\">Artifact of the Brute</a></li></ul>",
+						"image": [
+							"/images/thumb/e/ef/ASA_TheIsland_CaveEntrance_The_Caverns_of_Lost_Faith.jpg/288px-ASA_TheIsland_CaveEntrance_The_Caverns_of_Lost_Faith.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					45.178,
+					95.481,
+					{
+						"label": "The Caverns of Lost Hope",
+						"desc": "<p>Holds:</p><ul><li><a href=\"/wiki/Artifact_of_the_Cunning\" title=\"Artifact of the Cunning\"><img alt=\"\" src=\"/images/thumb/6/66/Artifact_of_the_Cunning.png/20px-Artifact_of_the_Cunning.png\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"itemlink\" data-file-width=\"256\" data-file-height=\"256\" /></a>&#160;<a href=\"/wiki/Artifact_of_the_Cunning\" title=\"Artifact of the Cunning\">Artifact of the Cunning</a></li></ul>",
+						"image": [
+							"/images/thumb/4/47/ASA_TheIsland_CaveEntrance_The_Caverns_of_Lost_Hope.jpg/288px-ASA_TheIsland_CaveEntrance_The_Caverns_of_Lost_Hope.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					42.041,
+					37.301,
+					{
+						"label": "Tek Cave",
+						"desc": "<p>Overseer Fight is at the end of the cave</p>",
+						"image": [
+							"/images/thumb/f/fc/ASA_TheIsland_CaveEntrance_Tek_Cave.jpg/288px-ASA_TheIsland_CaveEntrance_Tek_Cave.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					1.256,
+					97.164,
+					{
+						"label": "Unnamed Underwater Cave"
+					}
+				],
+				[
+					33.866,
+					98.587,
+					{
+						"label": "Unnamed Underwater Cave"
+					}
+				],
+				[
+					93.683,
+					97.4,
+					{
+						"label": "Unnamed Underwater Cave"
+					}
+				],
+				[
+					98.211,
+					75.052,
+					{
+						"label": "Unnamed Underwater Cave"
+					}
+				],
+				[
+					97.321,
+					34.066,
+					{
+						"label": "Unnamed Underwater Cave"
+					}
+				],
+				[
+					97.644,
+					7.017,
+					{
+						"label": "Unnamed Underwater Cave"
+					}
+				],
+				[
+					89.328,
+					3.803,
+					{
+						"label": "Unnamed Underwater Cave"
+					}
+				],
+				[
+					10.394,
+					4.503,
+					{
+						"label": "Unnamed Underwater Cave"
+					}
+				],
+				[
+					4.178,
+					17.192,
+					{
+						"label": "Unnamed Underwater Cave"
+					}
+				],
+				[
+					3.938,
+					38.888,
+					{
+						"label": "Unnamed Underwater Cave"
+					}
+				],
+				[
+					53.381,
+					99.415,
+					{
+						"label": "Unnamed Underwater Cave"
+					}
+				],
+				[
+					49.589,
+					4.496,
+					{
+						"label": "Unnamed Underwater Cave"
+					}
+				]
+			],
+			"dossier": [
+				[
+					90.061,
+					3.721,
+					{
+						"uid": "dossier-dilophosaur",
+						"label": "Dilophosaur Dossier <span class=\"datamap-explorer-note-id\">(ID: 0)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -317379 274738 -38985 50.34 -23.77</code></p>",
+						"image": [
+							"/images/thumb/d/dd/ASA_TheIsland_ExpNote_ID_0.jpg/288px-ASA_TheIsland_ExpNote_ID_0.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					49.189,
+					4.379,
+					{
+						"uid": "dossier-titanomyrma",
+						"label": "Titanomyrma Dossier <span class=\"datamap-explorer-note-id\">(ID: 1)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -312870 -5560 -41493 -37.25 -50.20</code></p>",
+						"image": [
+							"/images/thumb/2/2b/ASA_TheIsland_ExpNote_ID_1.jpg/288px-ASA_TheIsland_ExpNote_ID_1.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					10.766,
+					4.508,
+					{
+						"uid": "dossier-allosaurus",
+						"label": "Allosaurus Dossier <span class=\"datamap-explorer-note-id\">(ID: 6)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -311987 -269070 -35552 70.68 -30.61</code></p>",
+						"image": [
+							"/images/thumb/6/61/ASA_TheIsland_ExpNote_ID_6.jpg/288px-ASA_TheIsland_ExpNote_ID_6.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					20.342,
+					38.388,
+					{
+						"uid": "dossier-anglerfish",
+						"label": "Anglerfish Dossier <span class=\"datamap-explorer-note-id\">(ID: 7)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -79634 -203392 -3198 28.82 -30.80</code></p>",
+						"image": [
+							"/images/thumb/f/fe/ASA_TheIsland_ExpNote_ID_7.jpg/288px-ASA_TheIsland_ExpNote_ID_7.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					9.878,
+					22.817,
+					{
+						"uid": "dossier-ankylosaurus",
+						"label": "Ankylosaurus Dossier <span class=\"datamap-explorer-note-id\">(ID: 8)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -186423 -275154 -14094 97.68 -23.33</code></p>",
+						"image": [
+							"/images/thumb/2/2b/ASA_TheIsland_ExpNote_ID_8.jpg/288px-ASA_TheIsland_ExpNote_ID_8.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					13.405,
+					41.547,
+					{
+						"uid": "dossier-archaeopteryx",
+						"label": "Archaeopteryx Dossier <span class=\"datamap-explorer-note-id\">(ID: 9)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -57973 -250967 -14363 104.70 -27.12</code></p>",
+						"image": [
+							"/images/thumb/0/01/ASA_TheIsland_ExpNote_ID_9.jpg/288px-ASA_TheIsland_ExpNote_ID_9.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					16.902,
+					54.5,
+					{
+						"uid": "dossier-argentavis",
+						"label": "Argentavis Dossier <span class=\"datamap-explorer-note-id\">(ID: 10)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 30860 -226984 34795 -45.94 -41.85</code></p>",
+						"image": [
+							"/images/thumb/d/df/ASA_TheIsland_ExpNote_ID_10.jpg/288px-ASA_TheIsland_ExpNote_ID_10.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					8.316,
+					72.169,
+					{
+						"uid": "dossier-arthropleura",
+						"label": "Arthropleura Dossier <span class=\"datamap-explorer-note-id\">(ID: 11)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 152037 -285869 -10219 -93.74 -34.30</code></p>",
+						"image": [
+							"/images/thumb/4/40/ASA_TheIsland_ExpNote_ID_11.jpg/288px-ASA_TheIsland_ExpNote_ID_11.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					20.943,
+					75.487,
+					{
+						"uid": "dossier-castoroides",
+						"label": "Castoroides Dossier <span class=\"datamap-explorer-note-id\">(ID: 12)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 174793 -199274 -13694 -171.76 -38.55</code></p>",
+						"image": [
+							"/images/thumb/c/c6/ASA_TheIsland_ExpNote_ID_12.jpg/288px-ASA_TheIsland_ExpNote_ID_12.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					10.932,
+					90.78,
+					{
+						"uid": "dossier-dung-beetle",
+						"label": "Dung Beetle Dossier <span class=\"datamap-explorer-note-id\">(ID: 13)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 279670 -267929 -12999 108.26 -37.14</code></p>",
+						"image": [
+							"/images/thumb/a/aa/ASA_TheIsland_ExpNote_ID_13.jpg/288px-ASA_TheIsland_ExpNote_ID_13.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					8.94,
+					86.69,
+					{
+						"uid": "dossier-beelzebufo",
+						"label": "Beelzebufo Dossier <span class=\"datamap-explorer-note-id\">(ID: 14)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 251621 -281587 -14379 163.56 -37.62</code></p>",
+						"image": [
+							"/images/thumb/a/a4/ASA_TheIsland_ExpNote_ID_14.jpg/288px-ASA_TheIsland_ExpNote_ID_14.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					22.722,
+					19.176,
+					{
+						"uid": "dossier-gigantopithecus",
+						"label": "Gigantopithecus Dossier <span class=\"datamap-explorer-note-id\">(ID: 15)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -211393 -187071 23644 78.05 -29.18</code></p>",
+						"image": [
+							"/images/thumb/5/53/ASA_TheIsland_ExpNote_ID_15.jpg/288px-ASA_TheIsland_ExpNote_ID_15.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					28.533,
+					11.635,
+					{
+						"uid": "dossier-brontosaurus",
+						"label": "Brontosaurus Dossier <span class=\"datamap-explorer-note-id\">(ID: 16)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -263105 -147218 -9405 85.22 -33.44</code></p>",
+						"image": [
+							"/images/thumb/3/37/ASA_TheIsland_ExpNote_ID_16.jpg/288px-ASA_TheIsland_ExpNote_ID_16.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					30.538,
+					39.508,
+					{
+						"uid": "dossier-carnotaurus",
+						"label": "Carnotaurus Dossier <span class=\"datamap-explorer-note-id\">(ID: 17)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -71954 -133468 1848 -169.96 -16.48</code></p>",
+						"image": [
+							"/images/thumb/a/a1/ASA_TheIsland_ExpNote_ID_17.jpg/288px-ASA_TheIsland_ExpNote_ID_17.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					28.15,
+					25.387,
+					{
+						"uid": "dossier-chalicotherium",
+						"label": "Chalicotherium Dossier <span class=\"datamap-explorer-note-id\">(ID: 18)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -168799 -149845 -84 95.83 -57.02</code></p>",
+						"image": [
+							"/images/thumb/b/ba/ASA_TheIsland_ExpNote_ID_18.jpg/288px-ASA_TheIsland_ExpNote_ID_18.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					32.449,
+					50.379,
+					{
+						"uid": "dossier-coelacanth",
+						"label": "Coelacanth Dossier <span class=\"datamap-explorer-note-id\">(ID: 19)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 2602 -120368 -4574 -90.65 -20.35</code></p>",
+						"image": [
+							"/images/thumb/4/42/ASA_TheIsland_ExpNote_ID_19.jpg/288px-ASA_TheIsland_ExpNote_ID_19.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					39.719,
+					49.107,
+					{
+						"uid": "dossier-compy",
+						"label": "Compy Dossier <span class=\"datamap-explorer-note-id\">(ID: 20)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -6125 -70510 3385 157.56 -33.75</code></p>",
+						"image": [
+							"/images/thumb/4/4e/ASA_TheIsland_ExpNote_ID_20.jpg/288px-ASA_TheIsland_ExpNote_ID_20.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					24.885,
+					78.238,
+					{
+						"uid": "dossier-dimetrodon",
+						"label": "Dimetrodon Dossier <span class=\"datamap-explorer-note-id\">(ID: 21)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 193653 -172236 -12346 -69.10 -46.70</code></p>",
+						"image": [
+							"/images/thumb/5/5e/ASA_TheIsland_ExpNote_ID_21.jpg/288px-ASA_TheIsland_ExpNote_ID_21.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					22.723,
+					74.004,
+					{
+						"uid": "dossier-dimorphodon",
+						"label": "Dimorphodon Dossier <span class=\"datamap-explorer-note-id\">(ID: 22)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 164619 -187066 -11872 -175.90 -52.40</code></p>",
+						"image": [
+							"/images/thumb/e/e6/ASA_TheIsland_ExpNote_ID_22.jpg/288px-ASA_TheIsland_ExpNote_ID_22.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					20.929,
+					7.406,
+					{
+						"uid": "dossier-diplodocus",
+						"label": "Diplodocus Dossier <span class=\"datamap-explorer-note-id\">(ID: 23)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -292112 -199367 -7364 -3.55 -30.81</code></p>",
+						"image": [
+							"/images/thumb/2/2e/ASA_TheIsland_ExpNote_ID_23.jpg/288px-ASA_TheIsland_ExpNote_ID_23.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					23.85,
+					87.999,
+					{
+						"uid": "dossier-diplocaulus",
+						"label": "Diplocaulus Dossier <span class=\"datamap-explorer-note-id\">(ID: 24)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 260594 -179335 -8380 159.40 -52.88</code></p>",
+						"image": [
+							"/images/thumb/5/5a/ASA_TheIsland_ExpNote_ID_24.jpg/288px-ASA_TheIsland_ExpNote_ID_24.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					38.739,
+					89.464,
+					{
+						"uid": "dossier-dire-bear",
+						"label": "Dire Bear Dossier <span class=\"datamap-explorer-note-id\">(ID: 25)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 270646 -77225 -8835 65.80 -58.09</code></p>",
+						"image": [
+							"/images/thumb/c/cc/ASA_TheIsland_ExpNote_ID_25.jpg/288px-ASA_TheIsland_ExpNote_ID_25.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					41.213,
+					15.97,
+					{
+						"uid": "dossier-direwolf",
+						"label": "Direwolf Dossier <span class=\"datamap-explorer-note-id\">(ID: 26)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -233381 -60262 -11502 65.89 -55.71</code></p>",
+						"image": [
+							"/images/thumb/5/5f/ASA_TheIsland_ExpNote_ID_26.jpg/288px-ASA_TheIsland_ExpNote_ID_26.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					57.831,
+					16.672,
+					{
+						"uid": "dossier-dodo",
+						"label": "Dodo Dossier <span class=\"datamap-explorer-note-id\">(ID: 27)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -228562 53703 -1858 155.63 -32.49</code></p>",
+						"image": [
+							"/images/thumb/8/82/ASA_TheIsland_ExpNote_ID_27.jpg/288px-ASA_TheIsland_ExpNote_ID_27.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					46.413,
+					23.899,
+					{
+						"uid": "dossier-doedicurus",
+						"label": "Doedicurus Dossier <span class=\"datamap-explorer-note-id\">(ID: 28)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -179002 -24602 -5460 20.10 -66.31</code></p>",
+						"image": [
+							"/images/thumb/7/77/ASA_TheIsland_ExpNote_ID_28.jpg/288px-ASA_TheIsland_ExpNote_ID_28.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					54.977,
+					40.04,
+					{
+						"uid": "dossier-meganeura",
+						"label": "Meganeura Dossier <span class=\"datamap-explorer-note-id\">(ID: 29)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -68306 34135 -12407 86.51 -7.40</code></p>",
+						"image": [
+							"/images/thumb/4/43/ASA_TheIsland_ExpNote_ID_29.jpg/288px-ASA_TheIsland_ExpNote_ID_29.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					42.983,
+					56.108,
+					{
+						"uid": "dossier-dunkleosteus",
+						"label": "Dunkleosteus Dossier <span class=\"datamap-explorer-note-id\">(ID: 30)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 41889 -48121 -12993 -63.21 -24.22</code></p>",
+						"image": [
+							"/images/thumb/0/06/ASA_TheIsland_ExpNote_ID_30.jpg/288px-ASA_TheIsland_ExpNote_ID_30.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					43.183,
+					48.855,
+					{
+						"uid": "dossier-eurypterid",
+						"label": "Eurypterid Dossier <span class=\"datamap-explorer-note-id\">(ID: 31)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -7852 -46749 -9398 -94.53 -32.82</code></p>",
+						"image": [
+							"/images/thumb/c/cd/ASA_TheIsland_ExpNote_ID_31.jpg/288px-ASA_TheIsland_ExpNote_ID_31.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					44.89,
+					64.411,
+					{
+						"uid": "dossier-gallimimus",
+						"label": "Gallimimus Dossier <span class=\"datamap-explorer-note-id\">(ID: 32)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 98834 -35046 -12365 -179.92 -29.53</code></p>",
+						"image": [
+							"/images/thumb/7/7b/ASA_TheIsland_ExpNote_ID_32.jpg/288px-ASA_TheIsland_ExpNote_ID_32.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					43.589,
+					69.311,
+					{
+						"uid": "dossier-giganotosaurus",
+						"label": "Giganotosaurus Dossier <span class=\"datamap-explorer-note-id\">(ID: 33)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 132437 -43966 -10591 57.88 -27.46</code></p>",
+						"image": [
+							"/images/thumb/1/14/ASA_TheIsland_ExpNote_ID_33.jpg/288px-ASA_TheIsland_ExpNote_ID_33.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					53.398,
+					84.665,
+					{
+						"uid": "dossier-ichthyosaurus(dolphin)",
+						"label": "Ichthyosaurus(Dolphin) Dossier <span class=\"datamap-explorer-note-id\">(ID: 34)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 237734 23306 -13738 2.02 -10.52</code></p>",
+						"image": [
+							"/images/thumb/1/13/ASA_TheIsland_ExpNote_ID_34.jpg/288px-ASA_TheIsland_ExpNote_ID_34.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					41.308,
+					84.579,
+					{
+						"uid": "dossier-kairuku",
+						"label": "Kairuku Dossier <span class=\"datamap-explorer-note-id\">(ID: 35)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 237145 -59612 -7904 -124.87 -51.45</code></p>",
+						"image": [
+							"/images/thumb/c/cb/ASA_TheIsland_ExpNote_ID_35.jpg/288px-ASA_TheIsland_ExpNote_ID_35.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					88.426,
+					52.251,
+					{
+						"uid": "dossier-kaprosuchus",
+						"label": "Kaprosuchus Dossier <span class=\"datamap-explorer-note-id\">(ID: 36)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 15434 263527 -23107 -165.84 -49.77</code></p>",
+						"image": [
+							"/images/thumb/d/d4/ASA_TheIsland_ExpNote_ID_36.jpg/288px-ASA_TheIsland_ExpNote_ID_36.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					91.225,
+					53.984,
+					{
+						"uid": "dossier-leech",
+						"label": "Leech Dossier <span class=\"datamap-explorer-note-id\">(ID: 37)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 27321 282719 -24481 145.91 -41.24</code></p>",
+						"image": [
+							"/images/thumb/9/91/ASA_TheIsland_ExpNote_ID_37.jpg/288px-ASA_TheIsland_ExpNote_ID_37.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					71.773,
+					60.849,
+					{
+						"uid": "dossier-lystrosaurus",
+						"label": "Lystrosaurus Dossier <span class=\"datamap-explorer-note-id\">(ID: 38)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 74402 149321 -21873 -82.94 -37.55</code></p>",
+						"image": [
+							"/images/thumb/4/47/ASA_TheIsland_ExpNote_ID_38.jpg/288px-ASA_TheIsland_ExpNote_ID_38.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					74.88,
+					61.479,
+					{
+						"uid": "dossier-mammoth",
+						"label": "Mammoth Dossier <span class=\"datamap-explorer-note-id\">(ID: 39)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 78725 170624 -27399 163.19 -62.00</code></p>",
+						"image": [
+							"/images/thumb/a/a5/ASA_TheIsland_ExpNote_ID_39.jpg/288px-ASA_TheIsland_ExpNote_ID_39.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					72.089,
+					92.191,
+					{
+						"uid": "dossier-manta",
+						"label": "Manta Dossier <span class=\"datamap-explorer-note-id\">(ID: 40)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 289347 151489 -24575 125.58 -51.35</code></p>",
+						"image": [
+							"/images/thumb/6/66/ASA_TheIsland_ExpNote_ID_40.jpg/288px-ASA_TheIsland_ExpNote_ID_40.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					70.389,
+					91.477,
+					{
+						"uid": "dossier-megaloceros",
+						"label": "Megaloceros Dossier <span class=\"datamap-explorer-note-id\">(ID: 41)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 284448 139826 -24947 23.19 -28.88</code></p>",
+						"image": [
+							"/images/thumb/c/c9/ASA_TheIsland_ExpNote_ID_41.jpg/288px-ASA_TheIsland_ExpNote_ID_41.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					39.451,
+					46.925,
+					{
+						"uid": "dossier-megalodon",
+						"label": "Megalodon Dossier <span class=\"datamap-explorer-note-id\">(ID: 42)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -21085 -72348 -3044 128.92 -26.78</code></p>",
+						"image": [
+							"/images/thumb/6/6e/ASA_TheIsland_ExpNote_ID_42.jpg/288px-ASA_TheIsland_ExpNote_ID_42.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					11.048,
+					89.771,
+					{
+						"uid": "dossier-megalosaurus",
+						"label": "Megalosaurus Dossier <span class=\"datamap-explorer-note-id\">(ID: 43)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 272749 -267136 -25604 31.93 -67.66</code></p>",
+						"image": [
+							"/images/thumb/4/43/ASA_TheIsland_ExpNote_ID_43.jpg/288px-ASA_TheIsland_ExpNote_ID_43.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					10.423,
+					90.162,
+					{
+						"uid": "dossier-mesopithecus",
+						"label": "Mesopithecus Dossier <span class=\"datamap-explorer-note-id\">(ID: 44)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 275428 -271419 -25501 -1.84 -21.29</code></p>",
+						"image": [
+							"/images/thumb/4/47/ASA_TheIsland_ExpNote_ID_44.jpg/288px-ASA_TheIsland_ExpNote_ID_44.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					10.806,
+					90.231,
+					{
+						"uid": "dossier-mosasaurus",
+						"label": "Mosasaurus Dossier <span class=\"datamap-explorer-note-id\">(ID: 45)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 275901 -268793 -21610 26.62 -51.22</code></p>",
+						"image": [
+							"/images/thumb/5/55/ASA_TheIsland_ExpNote_ID_45.jpg/288px-ASA_TheIsland_ExpNote_ID_45.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					69.105,
+					14.608,
+					{
+						"uid": "dossier-onyc",
+						"label": "Onyc Dossier <span class=\"datamap-explorer-note-id\">(ID: 46)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -242715 131021 -4220 -77.56 -31.20</code></p>",
+						"image": [
+							"/images/thumb/2/27/ASA_TheIsland_ExpNote_ID_46.jpg/288px-ASA_TheIsland_ExpNote_ID_46.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					60.37,
+					18.563,
+					{
+						"uid": "dossier-oviraptor",
+						"label": "Oviraptor Dossier <span class=\"datamap-explorer-note-id\">(ID: 47)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -215594 71119 -9397 28.46 -42.75</code></p>",
+						"image": [
+							"/images/thumb/c/cf/ASA_TheIsland_ExpNote_ID_47.jpg/288px-ASA_TheIsland_ExpNote_ID_47.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					68.069,
+					39.252,
+					{
+						"uid": "dossier-pachy",
+						"label": "Pachy Dossier <span class=\"datamap-explorer-note-id\">(ID: 48)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -73709 123919 -8625 178.24 -52.33</code></p>",
+						"image": [
+							"/images/thumb/3/3b/ASA_TheIsland_ExpNote_ID_48.jpg/288px-ASA_TheIsland_ExpNote_ID_48.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					67.582,
+					28.342,
+					{
+						"uid": "dossier-paraceratherium",
+						"label": "Paraceratherium Dossier <span class=\"datamap-explorer-note-id\">(ID: 49)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -148530 120579 -11619 70.38 -49.54</code></p>",
+						"image": [
+							"/images/thumb/3/3e/ASA_TheIsland_ExpNote_ID_49.jpg/288px-ASA_TheIsland_ExpNote_ID_49.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					75.167,
+					29.114,
+					{
+						"uid": "dossier-parasaur",
+						"label": "Parasaur Dossier <span class=\"datamap-explorer-note-id\">(ID: 50)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -143234 172594 -11538 -111.16 -20.20</code></p>",
+						"image": [
+							"/images/thumb/0/06/ASA_TheIsland_ExpNote_ID_50.jpg/288px-ASA_TheIsland_ExpNote_ID_50.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					74.807,
+					46.73,
+					{
+						"uid": "dossier-pelagornis",
+						"label": "Pelagornis Dossier <span class=\"datamap-explorer-note-id\">(ID: 51)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -22424 170125 -8495 34.54 -29.11</code></p>",
+						"image": [
+							"/images/thumb/a/a3/ASA_TheIsland_ExpNote_ID_51.jpg/288px-ASA_TheIsland_ExpNote_ID_51.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					76.232,
+					54.482,
+					{
+						"uid": "dossier-phiomia",
+						"label": "Phiomia Dossier <span class=\"datamap-explorer-note-id\">(ID: 52)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 30740 179902 -13646 -149.24 -36.63</code></p>",
+						"image": [
+							"/images/thumb/2/23/ASA_TheIsland_ExpNote_ID_52.jpg/288px-ASA_TheIsland_ExpNote_ID_52.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					71.148,
+					70.528,
+					{
+						"uid": "dossier-piranha",
+						"label": "Piranha Dossier <span class=\"datamap-explorer-note-id\">(ID: 53)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 140784 145031 -11606 20.45 -34.96</code></p>",
+						"image": [
+							"/images/thumb/d/d9/ASA_TheIsland_ExpNote_ID_53.jpg/288px-ASA_TheIsland_ExpNote_ID_53.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					71.472,
+					61.114,
+					{
+						"uid": "dossier-plesiosaur",
+						"label": "Plesiosaur Dossier <span class=\"datamap-explorer-note-id\">(ID: 54)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 76221 147255 -10808 68.31 -47.99</code></p>",
+						"image": [
+							"/images/thumb/3/37/ASA_TheIsland_ExpNote_ID_54.jpg/288px-ASA_TheIsland_ExpNote_ID_54.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					76.024,
+					82.853,
+					{
+						"uid": "dossier-procoptodon",
+						"label": "Procoptodon Dossier <span class=\"datamap-explorer-note-id\">(ID: 55)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 225303 178471 -8604 142.91 -36.80</code></p>",
+						"image": [
+							"/images/thumb/2/22/ASA_TheIsland_ExpNote_ID_55.jpg/288px-ASA_TheIsland_ExpNote_ID_55.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					69.758,
+					81.236,
+					{
+						"uid": "dossier-pteranodon",
+						"label": "Pteranodon Dossier <span class=\"datamap-explorer-note-id\">(ID: 56)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 214219 135501 -7830 -110.60 -28.96</code></p>",
+						"image": [
+							"/images/thumb/2/27/ASA_TheIsland_ExpNote_ID_56.jpg/288px-ASA_TheIsland_ExpNote_ID_56.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					93.65,
+					18.852,
+					{
+						"uid": "dossier-quetzal",
+						"label": "Quetzal Dossier <span class=\"datamap-explorer-note-id\">(ID: 57)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -213616 299351 -14002 -127.11 -53.38</code></p>",
+						"image": [
+							"/images/thumb/8/83/ASA_TheIsland_ExpNote_ID_57.jpg/288px-ASA_TheIsland_ExpNote_ID_57.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					92.751,
+					20.677,
+					{
+						"uid": "dossier-raptor",
+						"label": "Raptor Dossier <span class=\"datamap-explorer-note-id\">(ID: 58)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -201098 293187 -9836 53.39 -42.43</code></p>",
+						"image": [
+							"/images/thumb/c/c5/ASA_TheIsland_ExpNote_ID_58.jpg/288px-ASA_TheIsland_ExpNote_ID_58.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					84.07,
+					29.297,
+					{
+						"uid": "dossier-woolly-rhino",
+						"label": "Woolly Rhino Dossier <span class=\"datamap-explorer-note-id\">(ID: 59)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -141979 233653 -11509 11.75 -33.38</code></p>",
+						"image": [
+							"/images/thumb/1/18/ASA_TheIsland_ExpNote_ID_59.jpg/288px-ASA_TheIsland_ExpNote_ID_59.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					81.653,
+					22.089,
+					{
+						"uid": "dossier-sabertooth",
+						"label": "Sabertooth Dossier <span class=\"datamap-explorer-note-id\">(ID: 60)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -191415 217078 -14121 1.79 -43.08</code></p>",
+						"image": [
+							"/images/thumb/9/9e/ASA_TheIsland_ExpNote_ID_60.jpg/288px-ASA_TheIsland_ExpNote_ID_60.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					93.778,
+					52.664,
+					{
+						"uid": "dossier-sabertooth-salmon",
+						"label": "Sabertooth Salmon Dossier <span class=\"datamap-explorer-note-id\">(ID: 61)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 18272 300230 -13661 155.48 -37.25</code></p>",
+						"image": [
+							"/images/thumb/1/17/ASA_TheIsland_ExpNote_ID_61.jpg/288px-ASA_TheIsland_ExpNote_ID_61.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					82.502,
+					41.729,
+					{
+						"uid": "dossier-sarco",
+						"label": "Sarco Dossier <span class=\"datamap-explorer-note-id\">(ID: 62)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -56722 222896 -11196 -13.46 -33.02</code></p>",
+						"image": [
+							"/images/thumb/8/86/ASA_TheIsland_ExpNote_ID_62.jpg/288px-ASA_TheIsland_ExpNote_ID_62.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					85.753,
+					63.904,
+					{
+						"uid": "dossier-pulmonoscorpius",
+						"label": "Pulmonoscorpius Dossier <span class=\"datamap-explorer-note-id\">(ID: 63)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 95353 245194 -10776 -150.22 -39.79</code></p>",
+						"image": [
+							"/images/thumb/7/7d/ASA_TheIsland_ExpNote_ID_63.jpg/288px-ASA_TheIsland_ExpNote_ID_63.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					37.876,
+					45.058,
+					{
+						"uid": "dossier-araneo",
+						"label": "Araneo Dossier <span class=\"datamap-explorer-note-id\">(ID: 64)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -33889 -83145 -6895 -21.82 -33.57</code></p>",
+						"image": [
+							"/images/thumb/1/1d/ASA_TheIsland_ExpNote_ID_64.jpg/288px-ASA_TheIsland_ExpNote_ID_64.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					80.008,
+					84.764,
+					{
+						"uid": "dossier-spino",
+						"label": "Spino Dossier <span class=\"datamap-explorer-note-id\">(ID: 65)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 238411 205795 -10104 -115.29 -36.54</code></p>",
+						"image": [
+							"/images/thumb/7/70/ASA_TheIsland_ExpNote_ID_65.jpg/288px-ASA_TheIsland_ExpNote_ID_65.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					83.028,
+					83.913,
+					{
+						"uid": "dossier-stegosaurus",
+						"label": "Stegosaurus Dossier <span class=\"datamap-explorer-note-id\">(ID: 66)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 232576 226505 -14192 -129.46 -31.32</code></p>",
+						"image": [
+							"/images/thumb/0/0f/ASA_TheIsland_ExpNote_ID_66.jpg/288px-ASA_TheIsland_ExpNote_ID_66.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					64.312,
+					38.634,
+					{
+						"uid": "dossier-tapejara",
+						"label": "Tapejara Dossier <span class=\"datamap-explorer-note-id\">(ID: 67)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -77951 98153 -10692 147.99 -42.58</code></p>",
+						"image": [
+							"/images/thumb/a/a9/ASA_TheIsland_ExpNote_ID_67.jpg/288px-ASA_TheIsland_ExpNote_ID_67.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					64.186,
+					39.39,
+					{
+						"uid": "dossier-terror-bird",
+						"label": "Terror Bird Dossier <span class=\"datamap-explorer-note-id\">(ID: 68)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -72763 97285 -10972 -162.38 -38.84</code></p>",
+						"image": [
+							"/images/thumb/f/fb/ASA_TheIsland_ExpNote_ID_68.jpg/288px-ASA_TheIsland_ExpNote_ID_68.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					63.725,
+					39.198,
+					{
+						"uid": "dossier-titanosaur",
+						"label": "Titanosaur Dossier <span class=\"datamap-explorer-note-id\">(ID: 69)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -74077 94128 -11144 6.51 -29.02</code></p>",
+						"image": [
+							"/images/thumb/8/88/ASA_TheIsland_ExpNote_ID_69.jpg/288px-ASA_TheIsland_ExpNote_ID_69.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					33.847,
+					99.063,
+					{
+						"uid": "dossier-titanoboa",
+						"label": "Titanoboa Dossier <span class=\"datamap-explorer-note-id\">(ID: 70)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 336472 -110779 -44006 10.29 -40.26</code></p>",
+						"image": [
+							"/images/thumb/4/43/ASA_TheIsland_ExpNote_ID_70.jpg/288px-ASA_TheIsland_ExpNote_ID_70.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					53.617,
+					99.549,
+					{
+						"uid": "dossier-rex",
+						"label": "Rex Dossier <span class=\"datamap-explorer-note-id\">(ID: 71)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 339810 24803 -44487 43.25 -41.34</code></p>",
+						"image": [
+							"/images/thumb/e/eb/ASA_TheIsland_ExpNote_ID_71.jpg/288px-ASA_TheIsland_ExpNote_ID_71.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					93.905,
+					98.335,
+					{
+						"uid": "dossier-triceratops",
+						"label": "Triceratops Dossier <span class=\"datamap-explorer-note-id\">(ID: 72)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 331482 301099 -43122 7.23 -33.73</code></p>",
+						"image": [
+							"/images/thumb/c/c6/ASA_TheIsland_ExpNote_ID_72.jpg/288px-ASA_TheIsland_ExpNote_ID_72.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					4.217,
+					16.767,
+					{
+						"uid": "dossier-trilobite",
+						"label": "Trilobite Dossier <span class=\"datamap-explorer-note-id\">(ID: 73)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -227911 -313981 -39487 -93.97 -20.46</code></p>",
+						"image": [
+							"/images/thumb/6/6c/ASA_TheIsland_ExpNote_ID_73.jpg/288px-ASA_TheIsland_ExpNote_ID_73.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					4.324,
+					38.874,
+					{
+						"uid": "dossier-carbonemys",
+						"label": "Carbonemys Dossier <span class=\"datamap-explorer-note-id\">(ID: 74)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -76305 -313247 -40304 73.07 -31.91</code></p>",
+						"image": [
+							"/images/thumb/a/ad/ASA_TheIsland_ExpNote_ID_74.jpg/288px-ASA_TheIsland_ExpNote_ID_74.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					80.094,
+					82.89,
+					{
+						"uid": "dossier-achatina",
+						"label": "Achatina Dossier <span class=\"datamap-explorer-note-id\">(ID: 141)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 225561 206388 -11227 -126.94 -21.74</code></p>",
+						"image": [
+							"/images/thumb/1/17/ASA_TheIsland_ExpNote_ID_141.jpg/288px-ASA_TheIsland_ExpNote_ID_141.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					66.649,
+					11.919,
+					{
+						"uid": "dossier-moschops",
+						"label": "Moschops Dossier <span class=\"datamap-explorer-note-id\">(ID: 142)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -261160 114179 -11454 -147.97 -40.80</code></p>",
+						"image": [
+							"/images/thumb/f/f4/ASA_TheIsland_ExpNote_ID_142.jpg/288px-ASA_TheIsland_ExpNote_ID_142.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					82.25,
+					15.774,
+					{
+						"uid": "dossier-pachyrhinosaurus",
+						"label": "Pachyrhinosaurus Dossier <span class=\"datamap-explorer-note-id\">(ID: 143)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -234723 221169 -10152 -133.51 -34.78</code></p>",
+						"image": [
+							"/images/thumb/f/f8/ASA_TheIsland_ExpNote_ID_143.jpg/288px-ASA_TheIsland_ExpNote_ID_143.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					49.861,
+					86.984,
+					{
+						"uid": "dossier-cnidaria",
+						"label": "Cnidaria Dossier <span class=\"datamap-explorer-note-id\">(ID: 160)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 253638 -952 -26358 108.94 -6.90</code></p>",
+						"image": [
+							"/images/thumb/9/9f/ASA_TheIsland_ExpNote_ID_160.jpg/288px-ASA_TheIsland_ExpNote_ID_160.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					79.138,
+					83.621,
+					{
+						"uid": "dossier-troodon",
+						"label": "Troodon Dossier <span class=\"datamap-explorer-note-id\">(ID: 161)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 230572 199826 -10450 -167.16 -26.98</code></p>",
+						"image": [
+							"/images/thumb/1/13/ASA_TheIsland_ExpNote_ID_161.jpg/288px-ASA_TheIsland_ExpNote_ID_161.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					61.61,
+					16.552,
+					{
+						"uid": "dossier-tusoteuthis",
+						"label": "Tusoteuthis Dossier <span class=\"datamap-explorer-note-id\">(ID: 162)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -229389 79618 -23975 -143.96 -47.48</code></p>",
+						"image": [
+							"/images/thumb/2/2c/ASA_TheIsland_ExpNote_ID_162.jpg/288px-ASA_TheIsland_ExpNote_ID_162.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					87.553,
+					65.073,
+					{
+						"uid": "dossier-pegomastax",
+						"label": "Pegomastax Dossier <span class=\"datamap-explorer-note-id\">(ID: 163)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 103373 257540 -9903 111.45 -24.99</code></p>",
+						"image": [
+							"/images/thumb/d/d0/ASA_TheIsland_ExpNote_ID_163.jpg/288px-ASA_TheIsland_ExpNote_ID_163.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					70.478,
+					48.277,
+					{
+						"uid": "dossier-therizinosaur",
+						"label": "Therizinosaur Dossier <span class=\"datamap-explorer-note-id\">(ID: 164)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -11814 140436 -14354 117.24 -22.83</code></p>",
+						"image": [
+							"/images/thumb/7/77/ASA_TheIsland_ExpNote_ID_164.jpg/288px-ASA_TheIsland_ExpNote_ID_164.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					77.201,
+					78.122,
+					{
+						"uid": "dossier-ovis",
+						"label": "Ovis Dossier <span class=\"datamap-explorer-note-id\">(ID: 173)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 192858 186542 -11662 -25.94 -33.76</code></p>",
+						"image": [
+							"/images/thumb/8/83/ASA_TheIsland_ExpNote_ID_173.jpg/288px-ASA_TheIsland_ExpNote_ID_173.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					26.693,
+					82.764,
+					{
+						"uid": "dossier-baryonyx",
+						"label": "Baryonyx Dossier <span class=\"datamap-explorer-note-id\">(ID: 174)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 224698 -159839 -3295 -29.71 -31.77</code></p>",
+						"image": [
+							"/images/thumb/2/28/ASA_TheIsland_ExpNote_ID_174.jpg/288px-ASA_TheIsland_ExpNote_ID_174.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					52.876,
+					12.364,
+					{
+						"uid": "dossier-basilosaurus",
+						"label": "Basilosaurus Dossier <span class=\"datamap-explorer-note-id\">(ID: 175)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -258105 19723 -8925 106.47 -32.11</code></p>",
+						"image": [
+							"/images/thumb/f/f4/ASA_TheIsland_ExpNote_ID_175.jpg/288px-ASA_TheIsland_ExpNote_ID_175.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					34.355,
+					32.36,
+					{
+						"uid": "dossier-purlovia",
+						"label": "Purlovia Dossier <span class=\"datamap-explorer-note-id\">(ID: 176)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -120978 -107295 4160 7.39 -22.15</code></p>",
+						"image": [
+							"/images/thumb/8/82/ASA_TheIsland_ExpNote_ID_176.jpg/288px-ASA_TheIsland_ExpNote_ID_176.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					93.284,
+					51.331,
+					{
+						"uid": "dossier-ammonite",
+						"label": "Ammonite Dossier <span class=\"datamap-explorer-note-id\">(ID: 233)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 9128 296844 -13349 -97.62 -45.40</code></p>",
+						"image": [
+							"/images/thumb/7/79/ASA_TheIsland_ExpNote_ID_233.jpg/288px-ASA_TheIsland_ExpNote_ID_233.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					34.194,
+					86.648,
+					{
+						"uid": "dossier-electrophorus",
+						"label": "Electrophorus Dossier <span class=\"datamap-explorer-note-id\">(ID: 234)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 251333 -108399 7785 -121.88 -46.66</code></p>",
+						"image": [
+							"/images/thumb/c/ce/ASA_TheIsland_ExpNote_ID_234.jpg/288px-ASA_TheIsland_ExpNote_ID_234.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					48.261,
+					16.873,
+					{
+						"uid": "dossier-microraptor",
+						"label": "Microraptor Dossier <span class=\"datamap-explorer-note-id\">(ID: 235)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -227187 -11924 -8217 120.56 -24.61</code></p>",
+						"image": [
+							"/images/thumb/b/b4/ASA_TheIsland_ExpNote_ID_235.jpg/288px-ASA_TheIsland_ExpNote_ID_235.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					29.479,
+					68.91,
+					{
+						"uid": "dossier-thylacoleo",
+						"label": "Thylacoleo Dossier <span class=\"datamap-explorer-note-id\">(ID: 236)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 129682 -140732 -6401 135.66 -28.13</code></p>",
+						"image": [
+							"/images/thumb/6/6b/ASA_TheIsland_ExpNote_ID_236.jpg/288px-ASA_TheIsland_ExpNote_ID_236.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					65.83,
+					30.63,
+					{
+						"uid": "dossier-equus",
+						"label": "Equus Dossier <span class=\"datamap-explorer-note-id\">(ID: 237)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -132838 108561 -8358 118.53 -32.28</code></p>",
+						"image": [
+							"/images/thumb/6/69/ASA_TheIsland_ExpNote_ID_237.jpg/288px-ASA_TheIsland_ExpNote_ID_237.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					88.65,
+					19.029,
+					{
+						"uid": "dossier-leedsichthys",
+						"label": "Leedsichthys Dossier <span class=\"datamap-explorer-note-id\">(ID: 238)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -212396 265060 -10807 48.33 -29.41</code></p>",
+						"image": [
+							"/images/thumb/7/7c/ASA_TheIsland_ExpNote_ID_238.jpg/288px-ASA_TheIsland_ExpNote_ID_238.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					76.569,
+					66.873,
+					{
+						"uid": "dossier-ichthyornis",
+						"label": "Ichthyornis Dossier <span class=\"datamap-explorer-note-id\">(ID: 239)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 115717 182211 -12747 162.41 -36.86</code></p>",
+						"image": [
+							"/images/thumb/7/75/ASA_TheIsland_ExpNote_ID_239.jpg/288px-ASA_TheIsland_ExpNote_ID_239.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					64.453,
+					20.465,
+					{
+						"uid": "dossier-iguanodon",
+						"label": "Iguanodon Dossier <span class=\"datamap-explorer-note-id\">(ID: 240)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -202549 99121 -13685 -85.89 -23.37</code></p>",
+						"image": [
+							"/images/thumb/b/b7/ASA_TheIsland_ExpNote_ID_240.jpg/288px-ASA_TheIsland_ExpNote_ID_240.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					74.132,
+					62.972,
+					{
+						"uid": "dossier-bee",
+						"label": "Bee Dossier <span class=\"datamap-explorer-note-id\">(ID: 281)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 88965 165499 -14374 -119.93 -41.33</code></p>",
+						"image": [
+							"/images/thumb/4/42/ASA_TheIsland_ExpNote_ID_281.jpg/288px-ASA_TheIsland_ExpNote_ID_281.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					94.463,
+					53.474,
+					{
+						"uid": "dossier-daeodon",
+						"label": "Daeodon Dossier <span class=\"datamap-explorer-note-id\">(ID: 282)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 23826 304927 -13407 -63.77 -22.96</code></p>",
+						"image": [
+							"/images/thumb/f/f4/ASA_TheIsland_ExpNote_ID_282.jpg/288px-ASA_TheIsland_ExpNote_ID_282.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					83.01,
+					19.16,
+					{
+						"uid": "dossier-kentrosaurus",
+						"label": "Kentrosaurus Dossier <span class=\"datamap-explorer-note-id\">(ID: 283)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -211503 226380 -12199 -69.16 -33.09</code></p>",
+						"image": [
+							"/images/thumb/e/eb/ASA_TheIsland_ExpNote_ID_283.jpg/288px-ASA_TheIsland_ExpNote_ID_283.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					82.82,
+					19.963,
+					{
+						"uid": "dossier-liopleurodon",
+						"label": "Liopleurodon Dossier <span class=\"datamap-explorer-note-id\">(ID: 284)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -205993 225081 -12762 -152.58 -26.10</code></p>",
+						"image": [
+							"/images/thumb/1/17/ASA_TheIsland_ExpNote_ID_284.jpg/288px-ASA_TheIsland_ExpNote_ID_284.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					86.173,
+					87.171,
+					{
+						"uid": "dossier-hyaenodon",
+						"label": "Hyaenodon Dossier <span class=\"datamap-explorer-note-id\">(ID: 298)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 254920 248074 -14322 -33.75 -20.35</code></p>",
+						"image": [
+							"/images/thumb/f/fe/ASA_TheIsland_ExpNote_ID_298.jpg/288px-ASA_TheIsland_ExpNote_ID_298.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					90.126,
+					89.849,
+					{
+						"uid": "dossier-megalania",
+						"label": "Megalania Dossier <span class=\"datamap-explorer-note-id\">(ID: 299)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 273283 275182 -11732 -70.92 -41.81</code></p>",
+						"image": [
+							"/images/thumb/1/13/ASA_TheIsland_ExpNote_ID_299.jpg/288px-ASA_TheIsland_ExpNote_ID_299.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					77.918,
+					19.153,
+					{
+						"uid": "dossier-yutyrannus",
+						"label": "Yutyrannus Dossier <span class=\"datamap-explorer-note-id\">(ID: 300)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -211546 191462 -6104 123.50 -30.17</code></p>",
+						"image": [
+							"/images/thumb/e/ea/ASA_TheIsland_ExpNote_ID_300.jpg/288px-ASA_TheIsland_ExpNote_ID_300.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					79.027,
+					16.616,
+					{
+						"uid": "dossier-megatherium",
+						"label": "Megatherium Dossier <span class=\"datamap-explorer-note-id\">(ID: 301)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -228948 199068 -9538 -35.14 -33.87</code></p>",
+						"image": [
+							"/images/thumb/8/8c/ASA_TheIsland_ExpNote_ID_301.jpg/288px-ASA_TheIsland_ExpNote_ID_301.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					86.945,
+					89.818,
+					{
+						"uid": "dossier-hesperornis",
+						"label": "Hesperornis Dossier <span class=\"datamap-explorer-note-id\">(ID: 302)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 273072 253368 -14188 96.19 -34.38</code></p>",
+						"image": [
+							"/images/thumb/1/1e/ASA_TheIsland_ExpNote_ID_302.jpg/288px-ASA_TheIsland_ExpNote_ID_302.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					33.31,
+					60.575,
+					{
+						"uid": "dossier-otter",
+						"label": "Otter Dossier <span class=\"datamap-explorer-note-id\">(ID: 355)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 72524 -114458 25573 114.42 -42.07</code></p>",
+						"image": [
+							"/images/thumb/f/f9/ASA_TheIsland_ExpNote_ID_355.jpg/288px-ASA_TheIsland_ExpNote_ID_355.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					32.826,
+					85.085,
+					{
+						"uid": "dossier-carcharodontosaurus",
+						"label": "Carcharodontosaurus Dossier <span class=\"datamap-explorer-note-id\">(ID: 1230)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 240615 -117776 18700 26.40 -61.43</code></p>",
+						"image": [
+							"/images/thumb/f/f1/ASA_TheIsland_ExpNote_ID_1230.jpg/288px-ASA_TheIsland_ExpNote_ID_1230.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					31.854,
+					50.788,
+					{
+						"uid": "dossier-rhyniognatha",
+						"label": "Rhyniognatha Dossier <span class=\"datamap-explorer-note-id\">(ID: 1231)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 5406 -124442 -1155 -132.33 -36.36</code></p>",
+						"image": [
+							"/images/thumb/a/a6/ASA_TheIsland_ExpNote_ID_1231.jpg/288px-ASA_TheIsland_ExpNote_ID_1231.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				]
+			],
+			"explorer-note": [
+				[
+					21.181,
+					76.991,
+					{
+						"label": "Rockwell Record #1 <span class=\"datamap-explorer-note-id\">(ID: 2)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 185102 -197640 -14320 130.35 -52.83</code></p>",
+						"image": [
+							"/images/thumb/8/89/ASA_TheIsland_ExpNote_ID_2.jpg/288px-ASA_TheIsland_ExpNote_ID_2.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					20.835,
+					13.684,
+					{
+						"label": "MeiYin Note #1 <span class=\"datamap-explorer-note-id\">(ID: 3)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -249058 -200012 895 151.35 -56.99</code></p>",
+						"image": [
+							"/images/thumb/1/12/ASA_TheIsland_ExpNote_ID_3.jpg/288px-ASA_TheIsland_ExpNote_ID_3.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					10.425,
+					15.807,
+					{
+						"label": "MeiYin Note #2 <span class=\"datamap-explorer-note-id\">(ID: 4)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -234497 -271408 -7946 117.77 -39.10</code></p>",
+						"image": [
+							"/images/thumb/3/35/ASA_TheIsland_ExpNote_ID_4.jpg/288px-ASA_TheIsland_ExpNote_ID_4.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					17.772,
+					71.498,
+					{
+						"label": "Nerva Note #1 <span class=\"datamap-explorer-note-id\">(ID: 5)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 147433 -221021 -12811 118.03 -15.37</code></p>",
+						"image": [
+							"/images/thumb/d/d2/ASA_TheIsland_ExpNote_ID_5.jpg/288px-ASA_TheIsland_ExpNote_ID_5.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					1.591,
+					97.851,
+					{
+						"label": "Helena Note #1 <span class=\"datamap-explorer-note-id\">(ID: 75)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 328159 -331986 -43190 30.41 -35.51</code></p>",
+						"image": [
+							"/images/thumb/5/5c/ASA_TheIsland_ExpNote_ID_75.jpg/288px-ASA_TheIsland_ExpNote_ID_75.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					98.805,
+					74.837,
+					{
+						"label": "Helena Note #2 <span class=\"datamap-explorer-note-id\">(ID: 76)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 170332 334708 -43498 153.86 -25.78</code></p>",
+						"image": [
+							"/images/thumb/a/a3/ASA_TheIsland_ExpNote_ID_76.jpg/288px-ASA_TheIsland_ExpNote_ID_76.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					97.871,
+					33.921,
+					{
+						"label": "Helena Note #3 <span class=\"datamap-explorer-note-id\">(ID: 77)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -110270 328299 -43432 -67.97 -25.95</code></p>",
+						"image": [
+							"/images/thumb/2/2d/ASA_TheIsland_ExpNote_ID_77.jpg/288px-ASA_TheIsland_ExpNote_ID_77.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					97.425,
+					6.962,
+					{
+						"label": "Helena Note #4 <span class=\"datamap-explorer-note-id\">(ID: 78)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -295154 325239 -44392 -70.46 -21.03</code></p>",
+						"image": [
+							"/images/thumb/0/04/ASA_TheIsland_ExpNote_ID_78.jpg/288px-ASA_TheIsland_ExpNote_ID_78.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					88.774,
+					20.556,
+					{
+						"label": "Rockwell Record #2 <span class=\"datamap-explorer-note-id\">(ID: 79)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -201925 265912 -4979 -109.70 -36.81</code></p>",
+						"image": [
+							"/images/thumb/1/1e/ASA_TheIsland_ExpNote_ID_79.jpg/288px-ASA_TheIsland_ExpNote_ID_79.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					55.638,
+					7.773,
+					{
+						"label": "Rockwell Record #3 <span class=\"datamap-explorer-note-id\">(ID: 80)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -289590 38668 -14231 -151.61 -24.55</code></p>",
+						"image": [
+							"/images/thumb/f/fb/ASA_TheIsland_ExpNote_ID_80.jpg/288px-ASA_TheIsland_ExpNote_ID_80.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					8.105,
+					91.897,
+					{
+						"label": "Rockwell Record #4 <span class=\"datamap-explorer-note-id\">(ID: 81)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 287329 -287316 -14342 -14.81 -38.59</code></p>",
+						"image": [
+							"/images/thumb/f/fc/ASA_TheIsland_ExpNote_ID_81.jpg/288px-ASA_TheIsland_ExpNote_ID_81.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					10.052,
+					52.922,
+					{
+						"label": "MeiYin Note #3 <span class=\"datamap-explorer-note-id\">(ID: 82)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 20039 -273966 1490 -123.41 -30.10</code></p>",
+						"image": [
+							"/images/thumb/e/eb/ASA_TheIsland_ExpNote_ID_82.jpg/288px-ASA_TheIsland_ExpNote_ID_82.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					14.787,
+					26.749,
+					{
+						"label": "MeiYin Note #4 <span class=\"datamap-explorer-note-id\">(ID: 83)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -159457 -241491 -2196 -124.48 -37.46</code></p>",
+						"image": [
+							"/images/thumb/5/51/ASA_TheIsland_ExpNote_ID_83.jpg/288px-ASA_TheIsland_ExpNote_ID_83.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					33.304,
+					82.776,
+					{
+						"label": "Nerva Note #2 <span class=\"datamap-explorer-note-id\">(ID: 84)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 224775 -114503 12179 -143.00 -32.80</code></p>",
+						"image": [
+							"/images/thumb/f/f8/ASA_TheIsland_ExpNote_ID_84.jpg/288px-ASA_TheIsland_ExpNote_ID_84.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					37.765,
+					20.232,
+					{
+						"label": "Nerva Note #3 <span class=\"datamap-explorer-note-id\">(ID: 85)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -204150 -83909 6190 -119.73 -42.30</code></p>",
+						"image": [
+							"/images/thumb/c/c6/ASA_TheIsland_ExpNote_ID_85.jpg/288px-ASA_TheIsland_ExpNote_ID_85.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					39.673,
+					70.996,
+					{
+						"label": "Nerva Note #4 <span class=\"datamap-explorer-note-id\">(ID: 86)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 143990 -70822 -11416 21.83 -35.64</code></p>",
+						"image": [
+							"/images/thumb/a/a3/ASA_TheIsland_ExpNote_ID_86.jpg/288px-ASA_TheIsland_ExpNote_ID_86.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					16.487,
+					72.364,
+					{
+						"label": "Rockwell Record #5 <span class=\"datamap-explorer-note-id\">(ID: 118)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 153374 -229835 -13224 24.14 -52.64</code></p>",
+						"image": [
+							"/images/thumb/5/57/ASA_TheIsland_ExpNote_ID_118.jpg/288px-ASA_TheIsland_ExpNote_ID_118.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					44.57,
+					28.384,
+					{
+						"label": "Nerva Note #5 <span class=\"datamap-explorer-note-id\">(ID: 121)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -148241 -37242 415 137.26 -36.02</code></p>",
+						"image": [
+							"/images/thumb/3/38/ASA_TheIsland_ExpNote_ID_121.jpg/288px-ASA_TheIsland_ExpNote_ID_121.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					86.807,
+					43.791,
+					{
+						"label": "Helena Note #5 <span class=\"datamap-explorer-note-id\">(ID: 123)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -42583 252424 -10475 -31.60 -33.97</code></p>",
+						"image": [
+							"/images/thumb/0/00/ASA_TheIsland_ExpNote_ID_123.jpg/288px-ASA_TheIsland_ExpNote_ID_123.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					22.734,
+					10.81,
+					{
+						"label": "MeiYin Note #5 <span class=\"datamap-explorer-note-id\">(ID: 124)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -268764 -186987 -8873 -170.17 -33.09</code></p>",
+						"image": [
+							"/images/thumb/8/89/ASA_TheIsland_ExpNote_ID_124.jpg/288px-ASA_TheIsland_ExpNote_ID_124.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					11.261,
+					25.705,
+					{
+						"label": "MeiYin Note #6 <span class=\"datamap-explorer-note-id\">(ID: 125)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -166617 -265670 -8585 87.91 -25.92</code></p>",
+						"image": [
+							"/images/thumb/f/f0/ASA_TheIsland_ExpNote_ID_125.jpg/288px-ASA_TheIsland_ExpNote_ID_125.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					16.54,
+					26.626,
+					{
+						"label": "MeiYin Note #7 <span class=\"datamap-explorer-note-id\">(ID: 126)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -160302 -229468 11260 159.57 -48.87</code></p>",
+						"image": [
+							"/images/thumb/4/4d/ASA_TheIsland_ExpNote_ID_126.jpg/288px-ASA_TheIsland_ExpNote_ID_126.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					81.801,
+					80.818,
+					{
+						"label": "Helena Note #6 <span class=\"datamap-explorer-note-id\">(ID: 127)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 211353 218088 -13210 -68.19 -36.34</code></p>",
+						"image": [
+							"/images/thumb/3/3c/ASA_TheIsland_ExpNote_ID_127.jpg/288px-ASA_TheIsland_ExpNote_ID_127.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					83.54,
+					23.991,
+					{
+						"label": "Helena Note #7 <span class=\"datamap-explorer-note-id\">(ID: 128)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -178371 230018 -12899 -11.12 -51.65</code></p>",
+						"image": [
+							"/images/thumb/5/5f/ASA_TheIsland_ExpNote_ID_128.jpg/288px-ASA_TheIsland_ExpNote_ID_128.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					49.27,
+					83.852,
+					{
+						"label": "Nerva Note #6 <span class=\"datamap-explorer-note-id\">(ID: 131)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 232157 -5006 -9317 -150.33 -28.93</code></p>",
+						"image": [
+							"/images/thumb/3/31/ASA_TheIsland_ExpNote_ID_131.jpg/288px-ASA_TheIsland_ExpNote_ID_131.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					47.444,
+					62.702,
+					{
+						"label": "Nerva Note #7 <span class=\"datamap-explorer-note-id\">(ID: 132)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 87109 -17532 -12201 -164.55 -20.82</code></p>",
+						"image": [
+							"/images/thumb/8/86/ASA_TheIsland_ExpNote_ID_132.jpg/288px-ASA_TheIsland_ExpNote_ID_132.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					60.69,
+					88.57,
+					{
+						"label": "Rockwell Record #6 <span class=\"datamap-explorer-note-id\">(ID: 137)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 264515 73309 -11719 -142.53 -31.24</code></p>",
+						"image": [
+							"/images/thumb/7/75/ASA_TheIsland_ExpNote_ID_137.jpg/288px-ASA_TheIsland_ExpNote_ID_137.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					43.119,
+					86.589,
+					{
+						"label": "Rockwell Record #7 <span class=\"datamap-explorer-note-id\">(ID: 138)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 250925 -47188 -5880 126.18 -51.48</code></p>",
+						"image": [
+							"/images/thumb/3/3e/ASA_TheIsland_ExpNote_ID_138.jpg/288px-ASA_TheIsland_ExpNote_ID_138.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					29.542,
+					10.195,
+					{
+						"label": "MeiYin Note #8 <span class=\"datamap-explorer-note-id\">(ID: 144)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -272986 -140304 -14215 149.75 -39.24</code></p>",
+						"image": [
+							"/images/thumb/e/e5/ASA_TheIsland_ExpNote_ID_144.jpg/288px-ASA_TheIsland_ExpNote_ID_144.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					63.042,
+					86.75,
+					{
+						"label": "Helena Note #8 <span class=\"datamap-explorer-note-id\">(ID: 145)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 252034 89439 -11717 -172.13 -41.53</code></p>",
+						"image": [
+							"/images/thumb/4/43/ASA_TheIsland_ExpNote_ID_145.jpg/288px-ASA_TheIsland_ExpNote_ID_145.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					52.872,
+					48.922,
+					{
+						"label": "Nerva Note #8 <span class=\"datamap-explorer-note-id\">(ID: 146)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -7391 19694 -6172 -22.59 -31.76</code></p>",
+						"image": [
+							"/images/thumb/2/2d/ASA_TheIsland_ExpNote_ID_146.jpg/288px-ASA_TheIsland_ExpNote_ID_146.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					66.904,
+					31.472,
+					{
+						"label": "Rockwell Record #8 <span class=\"datamap-explorer-note-id\">(ID: 147)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -127063 115929 -10557 -83.74 -33.81</code></p>",
+						"image": [
+							"/images/thumb/d/de/ASA_TheIsland_ExpNote_ID_147.jpg/288px-ASA_TheIsland_ExpNote_ID_147.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					46.791,
+					86.818,
+					{
+						"label": "MeiYin Note #9 <span class=\"datamap-explorer-note-id\">(ID: 152)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 252497 -22010 -17973 -32.05 -59.55</code></p>",
+						"image": [
+							"/images/thumb/8/82/ASA_TheIsland_ExpNote_ID_152.jpg/288px-ASA_TheIsland_ExpNote_ID_152.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					49.236,
+					84.093,
+					{
+						"label": "Helena Note #9 <span class=\"datamap-explorer-note-id\">(ID: 153)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 233807 -5242 -17295 87.46 -30.91</code></p>",
+						"image": [
+							"/images/thumb/2/2b/ASA_TheIsland_ExpNote_ID_153.jpg/288px-ASA_TheIsland_ExpNote_ID_153.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					59.566,
+					14.639,
+					{
+						"label": "Nerva Note #9 <span class=\"datamap-explorer-note-id\">(ID: 154)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -242508 65606 -26928 -147.98 -21.58</code></p>",
+						"image": [
+							"/images/thumb/5/51/ASA_TheIsland_ExpNote_ID_154.jpg/288px-ASA_TheIsland_ExpNote_ID_154.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					63.601,
+					10.443,
+					{
+						"label": "Rockwell Record #9 <span class=\"datamap-explorer-note-id\">(ID: 155)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -271282 93273 -26787 -80.06 -34.90</code></p>",
+						"image": [
+							"/images/thumb/0/0c/ASA_TheIsland_ExpNote_ID_155.jpg/288px-ASA_TheIsland_ExpNote_ID_155.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					23.499,
+					42.905,
+					{
+						"label": "MeiYin Note #10 <span class=\"datamap-explorer-note-id\">(ID: 165)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -48657 -181744 -3100 -153.41 -23.06</code></p>",
+						"image": [
+							"/images/thumb/c/ce/ASA_TheIsland_ExpNote_ID_165.jpg/288px-ASA_TheIsland_ExpNote_ID_165.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					52.801,
+					60.476,
+					{
+						"label": "Helena Note #10 <span class=\"datamap-explorer-note-id\">(ID: 166)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 71842 19209 -9656 140.50 -36.55</code></p>",
+						"image": [
+							"/images/thumb/1/19/ASA_TheIsland_ExpNote_ID_166.jpg/288px-ASA_TheIsland_ExpNote_ID_166.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					51.595,
+					55.402,
+					{
+						"label": "Nerva Note #10 <span class=\"datamap-explorer-note-id\">(ID: 167)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 37049 10938 -9302 148.22 -27.13</code></p>",
+						"image": [
+							"/images/thumb/1/18/ASA_TheIsland_ExpNote_ID_167.jpg/288px-ASA_TheIsland_ExpNote_ID_167.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					79.924,
+					75.075,
+					{
+						"label": "Rockwell Record #10 <span class=\"datamap-explorer-note-id\">(ID: 168)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 171963 205219 -13930 120.35 -39.19</code></p>",
+						"image": [
+							"/images/thumb/0/03/ASA_TheIsland_ExpNote_ID_168.jpg/288px-ASA_TheIsland_ExpNote_ID_168.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					85.008,
+					69.948,
+					{
+						"label": "Rockwell Record #11 <span class=\"datamap-explorer-note-id\">(ID: 177)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 136805 240088 -12292 -51.68 -42.76</code></p>",
+						"image": [
+							"/images/thumb/f/fa/ASA_TheIsland_ExpNote_ID_177.jpg/288px-ASA_TheIsland_ExpNote_ID_177.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					88.033,
+					51.525,
+					{
+						"label": "Rockwell Record #12 <span class=\"datamap-explorer-note-id\">(ID: 178)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 10456 260828 -12182 11.62 -52.55</code></p>",
+						"image": [
+							"/images/thumb/e/e7/ASA_TheIsland_ExpNote_ID_178.jpg/288px-ASA_TheIsland_ExpNote_ID_178.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					66.469,
+					63.491,
+					{
+						"label": "Rockwell Record #13 <span class=\"datamap-explorer-note-id\">(ID: 179)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 92518 112943 -7246 39.10 -38.84</code></p>",
+						"image": [
+							"/images/thumb/6/6c/ASA_TheIsland_ExpNote_ID_179.jpg/288px-ASA_TheIsland_ExpNote_ID_179.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					59.998,
+					48.797,
+					{
+						"label": "Rockwell Record #14 <span class=\"datamap-explorer-note-id\">(ID: 180)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -8247 68568 5473 18.76 -66.27</code></p>",
+						"image": [
+							"/images/thumb/3/30/ASA_TheIsland_ExpNote_ID_180.jpg/288px-ASA_TheIsland_ExpNote_ID_180.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					73.5,
+					28.959,
+					{
+						"label": "Rockwell Record #15 <span class=\"datamap-explorer-note-id\">(ID: 181)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -144299 161165 -14296 103.63 -40.86</code></p>",
+						"image": [
+							"/images/thumb/4/4d/ASA_TheIsland_ExpNote_ID_181.jpg/288px-ASA_TheIsland_ExpNote_ID_181.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					72.72,
+					20.605,
+					{
+						"label": "Rockwell Record #16 <span class=\"datamap-explorer-note-id\">(ID: 182)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -201591 155812 -13523 -104.14 -42.15</code></p>",
+						"image": [
+							"/images/thumb/0/07/ASA_TheIsland_ExpNote_ID_182.jpg/288px-ASA_TheIsland_ExpNote_ID_182.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					39.281,
+					47.296,
+					{
+						"label": "Rockwell Record #17 <span class=\"datamap-explorer-note-id\">(ID: 183)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -18541 -73514 -3792 57.14 -45.55</code></p>",
+						"image": [
+							"/images/thumb/3/3d/ASA_TheIsland_ExpNote_ID_183.jpg/288px-ASA_TheIsland_ExpNote_ID_183.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					71.799,
+					92.097,
+					{
+						"label": "Rockwell Record #18 <span class=\"datamap-explorer-note-id\">(ID: 184)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 288700 149500 -24476 -142.99 -42.56</code></p>",
+						"image": [
+							"/images/thumb/5/53/ASA_TheIsland_ExpNote_ID_184.jpg/288px-ASA_TheIsland_ExpNote_ID_184.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					73.039,
+					63.237,
+					{
+						"label": "Helena Note #11 <span class=\"datamap-explorer-note-id\">(ID: 185)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 90780 158001 -23068 67.05 -33.24</code></p>",
+						"image": [
+							"/images/thumb/5/5d/ASA_TheIsland_ExpNote_ID_185.jpg/288px-ASA_TheIsland_ExpNote_ID_185.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					89.719,
+					52.483,
+					{
+						"label": "Helena Note #12 <span class=\"datamap-explorer-note-id\">(ID: 186)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 17027 272393 -24541 163.68 -36.73</code></p>",
+						"image": [
+							"/images/thumb/5/5f/ASA_TheIsland_ExpNote_ID_186.jpg/288px-ASA_TheIsland_ExpNote_ID_186.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					56.134,
+					23.934,
+					{
+						"label": "Helena Note #13 <span class=\"datamap-explorer-note-id\">(ID: 187)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -178762 42069 -11276 -173.54 -33.08</code></p>",
+						"image": [
+							"/images/thumb/3/37/ASA_TheIsland_ExpNote_ID_187.jpg/288px-ASA_TheIsland_ExpNote_ID_187.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					22.398,
+					65.003,
+					{
+						"label": "Helena Note #14 <span class=\"datamap-explorer-note-id\">(ID: 188)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 102888 -189293 -10012 -38.10 -40.09</code></p>",
+						"image": [
+							"/images/thumb/d/d7/ASA_TheIsland_ExpNote_ID_188.jpg/288px-ASA_TheIsland_ExpNote_ID_188.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					31.387,
+					57.107,
+					{
+						"label": "Helena Note #15 <span class=\"datamap-explorer-note-id\">(ID: 189)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 48737 -127647 7120 98.29 -57.61</code></p>",
+						"image": [
+							"/images/thumb/1/1d/ASA_TheIsland_ExpNote_ID_189.jpg/288px-ASA_TheIsland_ExpNote_ID_189.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					39.155,
+					22.076,
+					{
+						"label": "Helena Note #16 <span class=\"datamap-explorer-note-id\">(ID: 190)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -191506 -74375 5772 -58.67 -42.75</code></p>",
+						"image": [
+							"/images/thumb/9/96/ASA_TheIsland_ExpNote_ID_190.jpg/288px-ASA_TheIsland_ExpNote_ID_190.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					81.26,
+					81.858,
+					{
+						"label": "Helena Note #17 <span class=\"datamap-explorer-note-id\">(ID: 191)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 218481 214384 -12357 59.28 -53.76</code></p>",
+						"image": [
+							"/images/thumb/0/06/ASA_TheIsland_ExpNote_ID_191.jpg/288px-ASA_TheIsland_ExpNote_ID_191.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					81.105,
+					74.12,
+					{
+						"label": "Helena Note #18 <span class=\"datamap-explorer-note-id\">(ID: 192)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 165416 213321 -12776 -120.11 -21.56</code></p>",
+						"image": [
+							"/images/thumb/b/b7/ASA_TheIsland_ExpNote_ID_192.jpg/288px-ASA_TheIsland_ExpNote_ID_192.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					15.532,
+					39.238,
+					{
+						"label": "MeiYin Note #11 <span class=\"datamap-explorer-note-id\">(ID: 193)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -73806 -236380 -9216 125.80 -44.56</code></p>",
+						"image": [
+							"/images/thumb/1/15/ASA_TheIsland_ExpNote_ID_193.jpg/288px-ASA_TheIsland_ExpNote_ID_193.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					6.615,
+					55.709,
+					{
+						"label": "MeiYin Note #12 <span class=\"datamap-explorer-note-id\">(ID: 194)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 39149 -297531 -13139 129.35 -33.55</code></p>",
+						"image": [
+							"/images/thumb/2/2a/ASA_TheIsland_ExpNote_ID_194.jpg/288px-ASA_TheIsland_ExpNote_ID_194.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					16.546,
+					39.416,
+					{
+						"label": "MeiYin Note #13 <span class=\"datamap-explorer-note-id\">(ID: 195)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -72588 -229429 -9124 70.37 -52.83</code></p>",
+						"image": [
+							"/images/thumb/0/0d/ASA_TheIsland_ExpNote_ID_195.jpg/288px-ASA_TheIsland_ExpNote_ID_195.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					9.517,
+					53.724,
+					{
+						"label": "MeiYin Note #14 <span class=\"datamap-explorer-note-id\">(ID: 196)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 25538 -277633 69 169.22 -22.47</code></p>",
+						"image": [
+							"/images/thumb/6/62/ASA_TheIsland_ExpNote_ID_196.jpg/288px-ASA_TheIsland_ExpNote_ID_196.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					22.946,
+					37.988,
+					{
+						"label": "MeiYin Note #15 <span class=\"datamap-explorer-note-id\">(ID: 197)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -82375 -185533 -1598 -162.87 -46.96</code></p>",
+						"image": [
+							"/images/thumb/f/f2/ASA_TheIsland_ExpNote_ID_197.jpg/288px-ASA_TheIsland_ExpNote_ID_197.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					31.773,
+					25.889,
+					{
+						"label": "MeiYin Note #16 <span class=\"datamap-explorer-note-id\">(ID: 198)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -165352 -125003 2245 -158.92 -37.10</code></p>",
+						"image": [
+							"/images/thumb/c/cc/ASA_TheIsland_ExpNote_ID_198.jpg/288px-ASA_TheIsland_ExpNote_ID_198.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					24.38,
+					31.263,
+					{
+						"label": "MeiYin Note #17 <span class=\"datamap-explorer-note-id\">(ID: 199)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -128497 -175699 4185 170.39 -48.58</code></p>",
+						"image": [
+							"/images/thumb/e/e0/ASA_TheIsland_ExpNote_ID_199.jpg/288px-ASA_TheIsland_ExpNote_ID_199.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					22.646,
+					51.935,
+					{
+						"label": "MeiYin Note #18 <span class=\"datamap-explorer-note-id\">(ID: 200)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 13273 -187594 11094 164.98 -48.35</code></p>",
+						"image": [
+							"/images/thumb/4/44/ASA_TheIsland_ExpNote_ID_200.jpg/288px-ASA_TheIsland_ExpNote_ID_200.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					88.117,
+					23.258,
+					{
+						"label": "Nerva Note #11 <span class=\"datamap-explorer-note-id\">(ID: 201)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -183394 261403 -12284 162.25 -42.29</code></p>",
+						"image": [
+							"/images/thumb/5/57/ASA_TheIsland_ExpNote_ID_201.jpg/288px-ASA_TheIsland_ExpNote_ID_201.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					81.986,
+					10.749,
+					{
+						"label": "Nerva Note #12 <span class=\"datamap-explorer-note-id\">(ID: 202)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -269184 219358 -10482 17.34 -33.52</code></p>",
+						"image": [
+							"/images/thumb/5/55/ASA_TheIsland_ExpNote_ID_202.jpg/288px-ASA_TheIsland_ExpNote_ID_202.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					72.866,
+					90.324,
+					{
+						"label": "Nerva Note #13 <span class=\"datamap-explorer-note-id\">(ID: 203)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 276543 156816 -9636 107.64 -37.69</code></p>",
+						"image": [
+							"/images/thumb/a/ab/ASA_TheIsland_ExpNote_ID_203.jpg/288px-ASA_TheIsland_ExpNote_ID_203.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					76.03,
+					60.752,
+					{
+						"label": "Nerva Note #14 <span class=\"datamap-explorer-note-id\">(ID: 204)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 73737 178514 -13952 58.73 -20.31</code></p>",
+						"image": [
+							"/images/thumb/1/19/ASA_TheIsland_ExpNote_ID_204.jpg/288px-ASA_TheIsland_ExpNote_ID_204.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					64.128,
+					15.438,
+					{
+						"label": "Nerva Note #15 <span class=\"datamap-explorer-note-id\">(ID: 205)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -237023 96889 -10955 43.67 -39.05</code></p>",
+						"image": [
+							"/images/thumb/9/9d/ASA_TheIsland_ExpNote_ID_205.jpg/288px-ASA_TheIsland_ExpNote_ID_205.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					54.361,
+					82.529,
+					{
+						"label": "Nerva Note #16 <span class=\"datamap-explorer-note-id\">(ID: 206)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 223085 29905 -12515 -178.69 -45.64</code></p>",
+						"image": [
+							"/images/thumb/a/a9/ASA_TheIsland_ExpNote_ID_206.jpg/288px-ASA_TheIsland_ExpNote_ID_206.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					42.246,
+					72.482,
+					{
+						"label": "Nerva Note #17 <span class=\"datamap-explorer-note-id\">(ID: 207)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 154182 -53180 -10564 -30.61 -53.81</code></p>",
+						"image": [
+							"/images/thumb/9/95/ASA_TheIsland_ExpNote_ID_207.jpg/288px-ASA_TheIsland_ExpNote_ID_207.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					59.174,
+					29.229,
+					{
+						"label": "Nerva Note #18 <span class=\"datamap-explorer-note-id\">(ID: 208)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -142445 62912 -11816 -23.32 -46.12</code></p>",
+						"image": [
+							"/images/thumb/1/17/ASA_TheIsland_ExpNote_ID_208.jpg/288px-ASA_TheIsland_ExpNote_ID_208.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					89.438,
+					24.041,
+					{
+						"label": "Rockwell Record #19 <span class=\"datamap-explorer-note-id\">(ID: 241)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -178026 270465 -12062 100.13 -43.04</code></p>",
+						"image": [
+							"/images/thumb/b/bd/ASA_TheIsland_ExpNote_ID_241.jpg/288px-ASA_TheIsland_ExpNote_ID_241.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					92.508,
+					22.852,
+					{
+						"label": "Rockwell Record #20 <span class=\"datamap-explorer-note-id\">(ID: 242)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -186184 291522 -13030 142.73 -44.76</code></p>",
+						"image": [
+							"/images/thumb/6/68/ASA_TheIsland_ExpNote_ID_242.jpg/288px-ASA_TheIsland_ExpNote_ID_242.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					81.619,
+					28.568,
+					{
+						"label": "Rockwell Record #21 <span class=\"datamap-explorer-note-id\">(ID: 243)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -146978 216842 -11618 -152.88 -29.11</code></p>",
+						"image": [
+							"/images/thumb/1/1a/ASA_TheIsland_ExpNote_ID_243.jpg/288px-ASA_TheIsland_ExpNote_ID_243.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					80.287,
+					46.111,
+					{
+						"label": "Rockwell Record #22 <span class=\"datamap-explorer-note-id\">(ID: 244)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -26672 207711 2533 119.29 -41.77</code></p>",
+						"image": [
+							"/images/thumb/0/08/ASA_TheIsland_ExpNote_ID_244.jpg/288px-ASA_TheIsland_ExpNote_ID_244.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					79.719,
+					78.012,
+					{
+						"label": "Rockwell Record #23 <span class=\"datamap-explorer-note-id\">(ID: 245)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 192109 203813 -12097 -144.33 -30.27</code></p>",
+						"image": [
+							"/images/thumb/1/19/ASA_TheIsland_ExpNote_ID_245.jpg/288px-ASA_TheIsland_ExpNote_ID_245.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					80.867,
+					71.121,
+					{
+						"label": "Rockwell Record #24 <span class=\"datamap-explorer-note-id\">(ID: 246)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 144845 211685 -12078 -65.68 -33.86</code></p>",
+						"image": [
+							"/images/thumb/c/c1/ASA_TheIsland_ExpNote_ID_246.jpg/288px-ASA_TheIsland_ExpNote_ID_246.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					79.113,
+					68.192,
+					{
+						"label": "Rockwell Record #25 <span class=\"datamap-explorer-note-id\">(ID: 247)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 124758 199658 -12432 46.31 -40.72</code></p>",
+						"image": [
+							"/images/thumb/9/9c/ASA_TheIsland_ExpNote_ID_247.jpg/288px-ASA_TheIsland_ExpNote_ID_247.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					80.059,
+					79.76,
+					{
+						"label": "Rockwell Record #26 <span class=\"datamap-explorer-note-id\">(ID: 248)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 204095 206146 -12649 -86.70 -35.49</code></p>",
+						"image": [
+							"/images/thumb/e/eb/ASA_TheIsland_ExpNote_ID_248.jpg/288px-ASA_TheIsland_ExpNote_ID_248.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					21.01,
+					43.739,
+					{
+						"label": "Helena Note #19 <span class=\"datamap-explorer-note-id\">(ID: 249)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -42936 -198814 -3958 -34.54 -27.74</code></p>",
+						"image": [
+							"/images/thumb/d/da/ASA_TheIsland_ExpNote_ID_249.jpg/288px-ASA_TheIsland_ExpNote_ID_249.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					14.02,
+					49.885,
+					{
+						"label": "Helena Note #20 <span class=\"datamap-explorer-note-id\">(ID: 250)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -792 -246754 10065 143.08 -32.23</code></p>",
+						"image": [
+							"/images/thumb/7/78/ASA_TheIsland_ExpNote_ID_250.jpg/288px-ASA_TheIsland_ExpNote_ID_250.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					6.416,
+					49.198,
+					{
+						"label": "Helena Note #21 <span class=\"datamap-explorer-note-id\">(ID: 251)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -5501 -298899 -13944 147.11 -21.88</code></p>",
+						"image": [
+							"/images/thumb/7/79/ASA_TheIsland_ExpNote_ID_251.jpg/288px-ASA_TheIsland_ExpNote_ID_251.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					20.706,
+					62.709,
+					{
+						"label": "Helena Note #22 <span class=\"datamap-explorer-note-id\">(ID: 252)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 87156 -200895 -873 -176.72 -42.09</code></p>",
+						"image": [
+							"/images/thumb/1/1c/ASA_TheIsland_ExpNote_ID_252.jpg/288px-ASA_TheIsland_ExpNote_ID_252.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					19.536,
+					67.884,
+					{
+						"label": "Helena Note #23 <span class=\"datamap-explorer-note-id\">(ID: 253)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 122647 -208921 -13512 -20.91 -43.35</code></p>",
+						"image": [
+							"/images/thumb/5/5d/ASA_TheIsland_ExpNote_ID_253.jpg/288px-ASA_TheIsland_ExpNote_ID_253.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					25.498,
+					18.644,
+					{
+						"label": "Helena Note #24 <span class=\"datamap-explorer-note-id\">(ID: 254)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -215037 -168037 11055 -57.52 -34.61</code></p>",
+						"image": [
+							"/images/thumb/1/1b/ASA_TheIsland_ExpNote_ID_254.jpg/288px-ASA_TheIsland_ExpNote_ID_254.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					33.942,
+					17.881,
+					{
+						"label": "Helena Note #25 <span class=\"datamap-explorer-note-id\">(ID: 255)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -220275 -110128 -8212 6.88 -36.79</code></p>",
+						"image": [
+							"/images/thumb/5/50/ASA_TheIsland_ExpNote_ID_255.jpg/288px-ASA_TheIsland_ExpNote_ID_255.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					23.933,
+					57.506,
+					{
+						"label": "Helena Note #26 <span class=\"datamap-explorer-note-id\">(ID: 256)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 51479 -178768 1321 -165.13 -28.91</code></p>",
+						"image": [
+							"/images/thumb/2/27/ASA_TheIsland_ExpNote_ID_256.jpg/288px-ASA_TheIsland_ExpNote_ID_256.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					37.12,
+					43.115,
+					{
+						"label": "MeiYin Note #19 <span class=\"datamap-explorer-note-id\">(ID: 257)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -47216 -88328 12999 167.66 -39.36</code></p>",
+						"image": [
+							"/images/thumb/2/21/ASA_TheIsland_ExpNote_ID_257.jpg/288px-ASA_TheIsland_ExpNote_ID_257.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					37.288,
+					74.631,
+					{
+						"label": "MeiYin Note #20 <span class=\"datamap-explorer-note-id\">(ID: 258)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 168916 -87181 -11423 35.62 -57.29</code></p>",
+						"image": [
+							"/images/thumb/2/2c/ASA_TheIsland_ExpNote_ID_258.jpg/288px-ASA_TheIsland_ExpNote_ID_258.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					30.897,
+					73.211,
+					{
+						"label": "MeiYin Note #21 <span class=\"datamap-explorer-note-id\">(ID: 259)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 159181 -131010 -13342 108.60 -44.95</code></p>",
+						"image": [
+							"/images/thumb/7/76/ASA_TheIsland_ExpNote_ID_259.jpg/288px-ASA_TheIsland_ExpNote_ID_259.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					26.828,
+					87.751,
+					{
+						"label": "MeiYin Note #22 <span class=\"datamap-explorer-note-id\">(ID: 260)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 258896 -158912 -982 135.72 -13.46</code></p>",
+						"image": [
+							"/images/thumb/0/03/ASA_TheIsland_ExpNote_ID_260.jpg/288px-ASA_TheIsland_ExpNote_ID_260.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					38.585,
+					83.566,
+					{
+						"label": "MeiYin Note #23 <span class=\"datamap-explorer-note-id\">(ID: 261)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 230197 -78284 -8304 110.32 -39.91</code></p>",
+						"image": [
+							"/images/thumb/6/6c/ASA_TheIsland_ExpNote_ID_261.jpg/288px-ASA_TheIsland_ExpNote_ID_261.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					50.534,
+					19.988,
+					{
+						"label": "MeiYin Note #24 <span class=\"datamap-explorer-note-id\">(ID: 262)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -205821 3663 -7662 149.47 -33.57</code></p>",
+						"image": [
+							"/images/thumb/4/47/ASA_TheIsland_ExpNote_ID_262.jpg/288px-ASA_TheIsland_ExpNote_ID_262.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					41.316,
+					18.507,
+					{
+						"label": "MeiYin Note #25 <span class=\"datamap-explorer-note-id\">(ID: 263)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -215981 -59552 -3973 133.45 -49.89</code></p>",
+						"image": [
+							"/images/thumb/d/d3/ASA_TheIsland_ExpNote_ID_263.jpg/288px-ASA_TheIsland_ExpNote_ID_263.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					53.027,
+					12.029,
+					{
+						"label": "MeiYin Note #26 <span class=\"datamap-explorer-note-id\">(ID: 264)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -260405 20762 -10646 -158.08 -47.31</code></p>",
+						"image": [
+							"/images/thumb/2/2c/ASA_TheIsland_ExpNote_ID_264.jpg/288px-ASA_TheIsland_ExpNote_ID_264.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					42.361,
+					27.783,
+					{
+						"label": "Nerva Note #19 <span class=\"datamap-explorer-note-id\">(ID: 265)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -152361 -52385 -460 -77.54 -39.00</code></p>",
+						"image": [
+							"/images/thumb/1/19/ASA_TheIsland_ExpNote_ID_265.jpg/288px-ASA_TheIsland_ExpNote_ID_265.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					50.696,
+					36.614,
+					{
+						"label": "Nerva Note #20 <span class=\"datamap-explorer-note-id\">(ID: 266)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -91804 4776 -10015 -74.06 -16.72</code></p>",
+						"image": [
+							"/images/thumb/9/9f/ASA_TheIsland_ExpNote_ID_266.jpg/288px-ASA_TheIsland_ExpNote_ID_266.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					55.873,
+					74.955,
+					{
+						"label": "Nerva Note #21 <span class=\"datamap-explorer-note-id\">(ID: 267)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 171141 40277 357 73.35 -24.03</code></p>",
+						"image": [
+							"/images/thumb/1/10/ASA_TheIsland_ExpNote_ID_267.jpg/288px-ASA_TheIsland_ExpNote_ID_267.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					42.318,
+					62.647,
+					{
+						"label": "Nerva Note #22 <span class=\"datamap-explorer-note-id\">(ID: 268)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 86732 -52686 -5597 75.79 -31.11</code></p>",
+						"image": [
+							"/images/thumb/6/66/ASA_TheIsland_ExpNote_ID_268.jpg/288px-ASA_TheIsland_ExpNote_ID_268.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					44.591,
+					71.469,
+					{
+						"label": "Nerva Note #23 <span class=\"datamap-explorer-note-id\">(ID: 269)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 147236 -37094 -9770 -150.76 -36.27</code></p>",
+						"image": [
+							"/images/thumb/d/d5/ASA_TheIsland_ExpNote_ID_269.jpg/288px-ASA_TheIsland_ExpNote_ID_269.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					43.102,
+					81.51,
+					{
+						"label": "Nerva Note #24 <span class=\"datamap-explorer-note-id\">(ID: 270)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 216093 -47306 -3034 -23.40 -29.04</code></p>",
+						"image": [
+							"/images/thumb/b/b8/ASA_TheIsland_ExpNote_ID_270.jpg/288px-ASA_TheIsland_ExpNote_ID_270.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					55.55,
+					79.734,
+					{
+						"label": "Nerva Note #25 <span class=\"datamap-explorer-note-id\">(ID: 271)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 203918 38065 -10738 -10.59 -34.31</code></p>",
+						"image": [
+							"/images/thumb/1/16/ASA_TheIsland_ExpNote_ID_271.jpg/288px-ASA_TheIsland_ExpNote_ID_271.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					77.786,
+					12.238,
+					{
+						"label": "Nerva Note #26 <span class=\"datamap-explorer-note-id\">(ID: 272)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -258975 190554 -8124 -174.34 -26.91</code></p>",
+						"image": [
+							"/images/thumb/6/67/ASA_TheIsland_ExpNote_ID_272.jpg/288px-ASA_TheIsland_ExpNote_ID_272.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					21.984,
+					21.58,
+					{
+						"label": "Helena Note #27 <span class=\"datamap-explorer-note-id\">(ID: 285)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -194904 -192133 33595 112.99 -32.87</code></p>",
+						"image": [
+							"/images/thumb/5/5c/ASA_TheIsland_ExpNote_ID_285.jpg/288px-ASA_TheIsland_ExpNote_ID_285.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					17.692,
+					18.975,
+					{
+						"label": "Helena Note #28 <span class=\"datamap-explorer-note-id\">(ID: 286)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -212772 -221566 9308 89.78 -35.39</code></p>",
+						"image": [
+							"/images/thumb/c/c7/ASA_TheIsland_ExpNote_ID_286.jpg/288px-ASA_TheIsland_ExpNote_ID_286.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					10.686,
+					86.395,
+					{
+						"label": "Helena Note #29 <span class=\"datamap-explorer-note-id\">(ID: 287)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 249595 -269612 -13951 -79.34 -34.78</code></p>",
+						"image": [
+							"/images/thumb/d/da/ASA_TheIsland_ExpNote_ID_287.jpg/288px-ASA_TheIsland_ExpNote_ID_287.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					17.944,
+					2.645,
+					{
+						"label": "MeiYin Note #27 <span class=\"datamap-explorer-note-id\">(ID: 288)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -324759 -219843 -10447 -162.26 -44.27</code></p>",
+						"image": [
+							"/images/thumb/2/2f/ASA_TheIsland_ExpNote_ID_288.jpg/288px-ASA_TheIsland_ExpNote_ID_288.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					19.04,
+					35.753,
+					{
+						"label": "MeiYin Note #28 <span class=\"datamap-explorer-note-id\">(ID: 289)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -97708 -212321 -5009 141.90 -11.66</code></p>",
+						"image": [
+							"/images/thumb/7/78/ASA_TheIsland_ExpNote_ID_289.jpg/288px-ASA_TheIsland_ExpNote_ID_289.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					12.911,
+					35.965,
+					{
+						"label": "MeiYin Note #29 <span class=\"datamap-explorer-note-id\">(ID: 290)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -96253 -254356 -10241 -168.04 -20.64</code></p>",
+						"image": [
+							"/images/thumb/8/8d/ASA_TheIsland_ExpNote_ID_290.jpg/288px-ASA_TheIsland_ExpNote_ID_290.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					38.263,
+					39.006,
+					{
+						"label": "MeiYin Note #30 <span class=\"datamap-explorer-note-id\">(ID: 291)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -75395 -80494 28033 -32.12 -29.96</code></p>",
+						"image": [
+							"/images/thumb/c/c2/ASA_TheIsland_ExpNote_ID_291.jpg/288px-ASA_TheIsland_ExpNote_ID_291.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					57.78,
+					51.747,
+					{
+						"label": "Nerva Note #27 <span class=\"datamap-explorer-note-id\">(ID: 292)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 11984 53353 6630 -116.75 -32.13</code></p>",
+						"image": [
+							"/images/thumb/8/80/ASA_TheIsland_ExpNote_ID_292.jpg/288px-ASA_TheIsland_ExpNote_ID_292.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					49.527,
+					49.355,
+					{
+						"label": "Nerva Note #28 <span class=\"datamap-explorer-note-id\">(ID: 293)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi  -4420 -3246 -14332 122.79 -45.64</code></p>",
+						"image": [
+							"/images/thumb/3/37/ASA_TheIsland_ExpNote_ID_293.jpg/288px-ASA_TheIsland_ExpNote_ID_293.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					74.718,
+					59.301,
+					{
+						"label": "Nerva Note #29 <span class=\"datamap-explorer-note-id\">(ID: 294)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 63787 169519 -14363 140.90 -21.06</code></p>",
+						"image": [
+							"/images/thumb/e/e2/ASA_TheIsland_ExpNote_ID_294.jpg/288px-ASA_TheIsland_ExpNote_ID_294.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					41.83,
+					37.411,
+					{
+						"label": "Nerva Note #30 <span class=\"datamap-explorer-note-id\">(ID: 295)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -86333 -56028 33482 75.80 -41.59</code></p>",
+						"image": [
+							"/images/thumb/7/7d/ASA_TheIsland_ExpNote_ID_295.jpg/288px-ASA_TheIsland_ExpNote_ID_295.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					15.089,
+					91.842,
+					{
+						"label": "Rockwell Record #27 <span class=\"datamap-explorer-note-id\">(ID: 296)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 286950 -239419 -14204 165.92 -37.07</code></p>",
+						"image": [
+							"/images/thumb/b/b8/ASA_TheIsland_ExpNote_ID_296.jpg/288px-ASA_TheIsland_ExpNote_ID_296.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					83.035,
+					46.794,
+					{
+						"label": "Rockwell Record #28 <span class=\"datamap-explorer-note-id\">(ID: 297)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -21987 226557 -8342 -92.68 -34.83</code></p>",
+						"image": [
+							"/images/thumb/b/ba/ASA_TheIsland_ExpNote_ID_297.jpg/288px-ASA_TheIsland_ExpNote_ID_297.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					8.221,
+					79.896,
+					{
+						"label": "Rockwell Record #29 <span class=\"datamap-explorer-note-id\">(ID: 351)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 205024 -286521 -115309 -54.14 -29.77</code></p>",
+						"image": [
+							"/images/thumb/e/ea/ASA_TheIsland_ExpNote_ID_351.jpg/288px-ASA_TheIsland_ExpNote_ID_351.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					14.078,
+					81.647,
+					{
+						"label": "Helena Note #30 <span class=\"datamap-explorer-note-id\">(ID: 352)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 217038 -246352 -115658 44.63 -31.41</code></p>",
+						"image": [
+							"/images/thumb/f/f1/ASA_TheIsland_ExpNote_ID_352.jpg/288px-ASA_TheIsland_ExpNote_ID_352.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					7.196,
+					77.83,
+					{
+						"label": "MeiYin Note #31 <span class=\"datamap-explorer-note-id\">(ID: 354)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 190860 -293553 -115331 -153.90 -21.31</code></p>",
+						"image": [
+							"/images/thumb/5/57/ASA_TheIsland_ExpNote_ID_354.jpg/288px-ASA_TheIsland_ExpNote_ID_354.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					19.263,
+					82.95,
+					{
+						"label": "??? Note #1 <span class=\"datamap-explorer-note-id\">(ID: 508)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 225972 -210793 -116328 70.83 -29.61</code></p>",
+						"image": [
+							"/images/thumb/d/de/ASA_TheIsland_ExpNote_ID_508.jpg/288px-ASA_TheIsland_ExpNote_ID_508.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					34.245,
+					84.438,
+					{
+						"label": "??? Note #4 <span class=\"datamap-explorer-note-id\">(ID: 511)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 236179 -108048 11828 87.31 -41.14</code></p>",
+						"image": [
+							"/images/thumb/9/92/ASA_TheIsland_ExpNote_ID_511.jpg/288px-ASA_TheIsland_ExpNote_ID_511.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					79.974,
+					62.117,
+					{
+						"label": "??? Note #7 <span class=\"datamap-explorer-note-id\">(ID: 514)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi 83095 205565 -10522 54.18 -32.12</code></p>",
+						"image": [
+							"/images/thumb/8/8f/ASA_TheIsland_ExpNote_ID_514.jpg/288px-ASA_TheIsland_ExpNote_ID_514.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					43.341,
+					19.176,
+					{
+						"label": "??? Note #10 <span class=\"datamap-explorer-note-id\">(ID: 517)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -211393 -45667 -2931 -178.07 -36.39</code></p>",
+						"image": [
+							"/images/thumb/e/e0/ASA_TheIsland_ExpNote_ID_517.jpg/288px-ASA_TheIsland_ExpNote_ID_517.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				],
+				[
+					95.75,
+					20.151,
+					{
+						"label": "??? Note #13 <span class=\"datamap-explorer-note-id\">(ID: 520)</span>",
+						"desc": "<p>Teleport command: <code>cheat spi -204702 313752 -11037 61.52 -37.91</code></p>",
+						"image": [
+							"/images/thumb/7/74/ASA_TheIsland_ExpNote_ID_520.jpg/288px-ASA_TheIsland_ExpNote_ID_520.jpg",
+							2560,
+							1440,
+							162,
+							288
+						]
+					}
+				]
+			]
+		}
+	}
+}
