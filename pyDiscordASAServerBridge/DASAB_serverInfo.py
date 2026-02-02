@@ -122,7 +122,7 @@ class DASAB_SERVER_INFO_MANAGER:
         return server_info
 
     def request_server_up(self, search_filter=""):
-        error_msg1 = f"Please give name of server which will uniqly identify server from list, current input : {search_filter} : "
+        error_msg1 = f"Failed. \nPlease give name of server which will uniqly identify server from list, current input : {search_filter} : "
         if (search_filter == ""): # we already have this check in bot also 
             return error_msg1
 
@@ -134,10 +134,10 @@ class DASAB_SERVER_INFO_MANAGER:
                 if server_info_matches[0].lower() == server.str_info.lower():  
                     if server.status.lower() == "online":
                         # TODO Requested Server is already online but do we still want to call start/restart?
-                        return f"Requested Server is already online : \n{server.str_info}"
+                        return f"Failed. \nRequested Server is already online : \n{server.str_info}"
                     else:
                         # TODO call reserver startup from here we can use server.id or something here
-                        return f"Requesting Server startup : \n{server.str_info}"
+                        return f"Success. \nRequesting Server startup : \n{server.str_info}"
         else:
             return error_msg1 + f" which gives {len(server_info_matches)} servers\n{"\n".join(server_info_matches)}" 
     
