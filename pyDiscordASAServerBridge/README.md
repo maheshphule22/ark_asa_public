@@ -17,7 +17,8 @@ pip install -r requirements.txt
 - Copy `.env.example` to `.env`
 - Fill in `DISCORD_TOKEN` and `DISCORD_GUILD_ID`
 - Change `SERVERS_TO_WATCH` battlematrix ids of servers you want to watch [ TODO local implementation instead of battlematrix] 
-- Change json for each command's config
+- Command config: update `DASAB_CFG_CMD.json`
+- Server info config: update `DASAB_CFG_SERVERS.json`
 
 ## Run bot
 ```
@@ -43,3 +44,6 @@ python DASAB_disbot.py
 - [Backlog] non admin to admin requests : restart & dino wipe etc - message in different chat/ping admin & admin will run command
     - this can be done with normal discord means - admins then have to send requied commands as per their setup
 - [Future] - watch server status for 2 hours and if no players => shutdown? - differnt list of server
+
+## issues to solve
+    first use give `Responce: Failed. No cached servers found for all servers.` - neeed to fix this

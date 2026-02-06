@@ -1,0 +1,79 @@
+{
+    "commands": [
+        {
+            "name": "server_list",
+            "description": "Lists the server matching pattern or all",
+            "role": "ArkServerBridge",
+            "cmd_count": 1,
+            "success_cooldown": 30,
+            "failure_cooldown": 10,
+            "allowed_guild_ids": [],
+            "allowed_channel_ids": [],
+            "backend_req": [ 
+                {"type":"GET", "END_PT":"server-status", "Auth":true}, 
+                {"type":"GET", "END_PT":"servers/{$server_id}"}
+            ]
+        },
+        {
+            "name": "server_start",
+            "description": "Send request to start server",
+            "role": "ArkServerBridge",
+            "cmd_count": 1,
+            "success_cooldown": 3600,
+            "failure_cooldown": 3,
+            "allowed_guild_ids": [],
+            "allowed_channel_ids": [879609905030500415, 1176883372874813510],
+            "backend_req": [ 
+                {"type":"POST", "END_PT":"start", "Auth":true, "Payload":"{'ProfileName': '{$server_profile}'}"},
+                {"type":"POST", "END_PT":"start", "Auth":true, "Payload":"{'ProfileName': '{$server_profile}'}"}
+            ]
+        },
+        {
+            "name": "server_stop",
+            "description": "Send request to shut down server",
+            "role": "ArkServerBridge",
+            "cmd_count": 1,
+            "success_cooldown": 3,
+            "failure_cooldown": 3,
+            "allowed_guild_ids": [],
+            "allowed_channel_ids": [879609905030500415],
+            "backend_req": [ 
+                {"type":"POST", "END_PT":"stop", "Auth":true, "Payload":"{'ProfileName': '{$server_profile}'}"},
+                {"type":"POST", "END_PT":"stop", "Auth":true, "Payload":"{'ProfileName': '{$server_profile}'}"}
+            ]
+        },
+        {
+            "name": "server_restart",
+            "description": "Send request to restart server",
+            "role": "ArkServerBridge",
+            "cmd_count": 1,
+            "success_cooldown": 3,
+            "failure_cooldown": 3,
+            "allowed_guild_ids": [],
+            "allowed_channel_ids": [879609905030500415],
+            "backend_req": [ {"type":"POST", "END_PT":"restart", "Auth":true, "Payload":"{'ProfileName': '{$server_profile}'}"} ]
+        },
+        {
+            "name": "server_update",
+            "description": "Send request to update server",
+            "role": "ArkServerBridge",
+            "cmd_count": 1,
+            "success_cooldown": 3,
+            "failure_cooldown": 3,
+            "allowed_guild_ids": [],
+            "allowed_channel_ids": [879609905030500415],
+            "backend_req": [ {"type":"POST", "END_PT":"update", "Auth":true, "Payload":"{'ProfileName': '{$server_profile}'}"} ]
+        },
+        {
+            "name": "send_command",
+            "description": "Send command to server",
+            "role": "ArkServerBridge",
+            "cmd_count": 1,
+            "success_cooldown": 10,
+            "failure_cooldown": 3,
+            "allowed_guild_ids": [],
+            "allowed_channel_ids": [879609905030500415],
+            "backend_req": [ {"type":"POST", "END_PT":"rcon", "Auth":true, "Payload":"{'ProfileName': '{$server_profile}','message': '{$message}'}"} ]
+        }
+    ]
+}

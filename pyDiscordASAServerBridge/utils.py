@@ -52,12 +52,14 @@ class DiscordCommadConfig:
     _failure_cooldown: object = None
     _allowed_guild_ids: object = None
     _allowed_channel_ids: object = None
+    _backend_req: object = None
 
     _count_int: int = field(init=False, default=1)
     _success_cooldown_float: float = field(init=False, default=0.0)
     _failure_cooldown_float: float = field(init=False, default=0.0)
     _allowed_guild_ids_list: list[int] = field(init=False, default_factory=list)
     _allowed_channel_ids_list: list[int] = field(init=False, default_factory=list)
+    _backend_req_list: list[dict] = field(init=False, default_factory=list)
 
     def __post_init__(self):
         self._count_int = _parse_int(self._count, 1, "_count")
@@ -65,6 +67,10 @@ class DiscordCommadConfig:
         self._failure_cooldown_float = _parse_float(self._failure_cooldown, 0.0, "_failure_cooldown")
         self._allowed_guild_ids_list = _parse_id_list(self._allowed_guild_ids, "_allowed_guild_ids")
         self._allowed_channel_ids_list = _parse_id_list(self._allowed_channel_ids, "_allowed_channel_ids")
+        if isinstance(self._backend_req, list):
+            self._backend_req_list = [item for item in self._backend_req if isinstance(item, dict)]
+        else:
+            self._backend_req_list = []
 
 class CommandConfigs:
     def __init__(self):
@@ -82,13 +88,14 @@ class CommandConfigs:
                 command.get("failure_cooldown"),
                 command.get("allowed_guild_ids"),
                 command.get("allowed_channel_ids"),
+                command.get("backend_req"),
             )
             self.cmd_list.append(cmd1_config)
             
     def get_config_at(self, index:int=0):
         return self.cmd_list[index] if len(self.cmd_list) > index else None
 
-    def load_json_config(self, filename='DisCmdConfig.json'):
+    def load_json_config(self, filename='DASAB_CFG_CMD.json'):
         """Loads a JSON configuration file and returns a dictionary."""
         # Ensure the file exists before trying to open it
         if not os.path.exists(filename):

@@ -8,7 +8,7 @@ from functools import wraps
 import asyncio
 
 from utils import CommandConfigs, CooldownManager
-from DASAB_serverInfo import DASAB_SERVER_INFO_MANAGER
+from DASAB_server_Info_manager import DASAB_SERVER_INFO_MANAGER
 dasab_server_info = DASAB_SERVER_INFO_MANAGER()
 
 load_dotenv()
@@ -146,26 +146,67 @@ async def _run(interaction: discord.Interaction, work_fn, server_filter: str, ac
 
 @slash_command(list_serv_cfg)
 async def server_list(interaction: discord.Interaction, server_filter: str = ""):
-    return await _run(interaction, dasab_server_info.get_cached_server_list_async, server_filter, "Requesed server list", use_thread=False)
+    if list_serv_cfg is not None and getattr(list_serv_cfg, "_backend_req_list", None):
+        return await _run(
+            interaction,
+            lambda sf: dasab_server_info.execute_backend_req(sf, list_serv_cfg._backend_req_list),
+            server_filter,
+            "Requesed server list",
+        )
+    return await _run(
+        interaction,
+        dasab_server_info.get_cached_server_list_async,
+        server_filter,
+        "Requesed server list",
+        use_thread=False,
+    )
 
 @slash_command(req_serv_start_cfg)
 @app_commands.autocomplete(server_filter=server_autocomplete)
 async def server_req_start(interaction: discord.Interaction, server_filter: str = ""):
+    if req_serv_start_cfg is not None and getattr(req_serv_start_cfg, "_backend_req_list", None):
+        return await _run(
+            interaction,
+            lambda sf: dasab_server_info.execute_backend_req(sf, req_serv_start_cfg._backend_req_list),
+            server_filter,
+            "Requested server start",
+        )
     return await _run(interaction, dasab_server_info.request_server_start, server_filter, "Requested server start")
 
 @slash_command(req_serv_stop_cfg)
 @app_commands.autocomplete(server_filter=server_autocomplete)
 async def server_req_stop(interaction: discord.Interaction, server_filter: str = ""):
+    if req_serv_stop_cfg is not None and getattr(req_serv_stop_cfg, "_backend_req_list", None):
+        return await _run(
+            interaction,
+            lambda sf: dasab_server_info.execute_backend_req(sf, req_serv_stop_cfg._backend_req_list),
+            server_filter,
+            "Requested server stop",
+        )
     return await _run(interaction, dasab_server_info.request_server_stop, server_filter, "Requested server stop")
 
 @slash_command(req_serv_restart_cfg)
 @app_commands.autocomplete(server_filter=server_autocomplete)
 async def server_req_restart(interaction: discord.Interaction, server_filter: str = ""):
+    if req_serv_restart_cfg is not None and getattr(req_serv_restart_cfg, "_backend_req_list", None):
+        return await _run(
+            interaction,
+            lambda sf: dasab_server_info.execute_backend_req(sf, req_serv_restart_cfg._backend_req_list),
+            server_filter,
+            "Requested server restart",
+        )
     return await _run(interaction, dasab_server_info.request_server_restart, server_filter, "Requested server restart")
 
 @slash_command(req_serv_update_cfg)
 @app_commands.autocomplete(server_filter=server_autocomplete)
 async def server_req_update(interaction: discord.Interaction, server_filter: str = ""):
+    if req_serv_update_cfg is not None and getattr(req_serv_update_cfg, "_backend_req_list", None):
+        return await _run(
+            interaction,
+            lambda sf: dasab_server_info.execute_backend_req(sf, req_serv_update_cfg._backend_req_list),
+            server_filter,
+            "Requested server update",
+        )
     return await _run(interaction, dasab_server_info.request_server_update, server_filter, "Requested server update")
 
 @dasab_bot.tree.error
