@@ -13,20 +13,33 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-## Configure
+## Configurations - 2 - .env for simple and secrete configs; .json for advanced configs
 - Copy `.env.example` to `.env`
-- Fill in `DISCORD_TOKEN`
-- Change `DISCORD_ROLE_LIST_SERVER` and `DISCORD_ROLE_REQUEST_SERVER` as per your discord settings
+- Fill in `DISCORD_TOKEN` and `DISCORD_GUILD_ID`
 - Change `SERVERS_TO_WATCH` battlematrix ids of servers you want to watch [ TODO local implementation instead of battlematrix] 
+- Change json for each command's config
 
 ## Run bot
 ```
 python DASAB_disbot.py
 ```
 
-## Commands (Slash)
-- `/list_servers` list available servers
-- `/request <server>` ? request a server
+## Commands (Slash) - names configurable using json - seq is important
+- `/server_list     <search string>` - list available servers having search string or all if search string is empty
+- `/server_start    <search string>` - request server start
+- `/server_stop     <search string>` - request server stop
+- `/server_restart  <search string>` - request server restart
+- `/server_update   <search string>` - request server update
 
 ## Notes
-- This is a minimal prototype.
+- This is a in-dev/prototype, feel free to report issues
+- user should make discord bot for their own use and run python with that bot's token 
+
+## Requiement Discussions / TODO:
+- [Done] - Guild ID check -> also added channel checks 
+- [Done] - Timeout to person before starting another server -> added configurable cooldown to all commands
+- [Done] - Update/stop/restart server -> different role specific -> role and channels configurable in json
+- RCON commands - admin role specific - send complete command on RCON
+- [Backlog] non admin to admin requests : restart & dino wipe etc - message in different chat/ping admin & admin will run command
+    - this can be done with normal discord means - admins then have to send requied commands as per their setup
+- [Future] - watch server status for 2 hours and if no players => shutdown? - differnt list of server

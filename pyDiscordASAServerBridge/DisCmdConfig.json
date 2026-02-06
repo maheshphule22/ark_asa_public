@@ -1,0 +1,69 @@
+{
+    "commands": [
+        {
+            "name" : "server_list",
+            "description" : "Lists the server matching pattern or all",
+            "role" : "ArkServerBridge",
+            "cmd_count" : 1,
+            "success_cooldown" : 30,
+            "failure_cooldown" : 10,
+            "allowed_guild_ids" : [],
+            "allowed_channel_ids" : [],
+        },
+
+        {
+            "name" : "server_start",
+            "description" : "Send request to start server",
+            "role" : "ArkServerBridge",
+            "cmd_count" : 1,
+            "success_cooldown" : 3600,
+            "failure_cooldown" : 3,
+            "allowed_guild_ids" : [],
+            "allowed_channel_ids" : [879609905030500415, 1176883372874813510],
+        },
+        
+        {
+            "name" : "server_stop",
+            "description" : "Send request to shut down server",
+            "role" : "ArkServerBridge",
+            "cmd_count" : 1,
+            "success_cooldown" : 3,
+            "failure_cooldown" : 3,
+            "allowed_guild_ids" : [],
+            "allowed_channel_ids" : [879609905030500415]
+        },
+        
+        {
+            "name" : "server_restart",
+            "description" : "Send request to restart server",
+            "role" : "ArkServerBridge",
+            "cmd_count" : 1,
+            "success_cooldown" : 3,
+            "failure_cooldown" : 3,
+            "allowed_guild_ids" : [],
+            "allowed_channel_ids" : [879609905030500415]
+        },
+        
+        {
+            "name" : "server_update",
+            "description" : "Send request to update server",
+            "role" : "ArkServerBridge",
+            "cmd_count" : 1,
+            "success_cooldown" : 3,
+            "failure_cooldown" : 3,
+            "allowed_guild_ids" : [],
+            "allowed_channel_ids" : [879609905030500415]
+        },
+
+        {
+            "name" : "send_command",
+            "description" : "Send command to server",
+            "role" : "ArkServerBridge",
+            "cmd_count" : 1,
+            "success_cooldown" : 10,
+            "failure_cooldown" : 3,
+            "allowed_guild_ids" : [],
+            "allowed_channel_ids" : [879609905030500415]
+        }
+    ]
+}
