@@ -1,55 +1,45 @@
 {
-    "display_template": "> {name} | {status} | {ip}:{port} | {map} | {players}/{maxPlayers} | Day:{day}",
+    "display_template": "> {name} | {ProfileName} | {status} | {ip}:{port}",
     "display_fields": {
-        "name": "name",
-        "status": "status",
-        "ip": "ip",
-        "port": "port",
+        "name": ["name", "server_name"],
+        "ProfileName": ["ProfileName", "server_profile"],
+        "status": "Status",
+        "ip": ["ip", "server_ip", "config.server_ip"],
+        "port": ["port", "server_port", "config.server_port"],
         "map": "map",
         "players": "players",
         "maxPlayers": "maxPlayers",
-        "day": "time_i"
+        "day": "time_i",
+        "message": ["message", "OfficialServerVersion", "ServerVersion"]
     },
     "servers": [
         {
-            "server_id": "36953952",
-            "server_profile": "PRS DEV",
-            "server_name": "Prisolis Dev Server ",
-            "server_ip": "96.225.165.119",
-            "server_port": 7863,
+            "server_profile": "LCL PVE PD",
             "server_manage_urls":["http://localhost:5000/", "https://api.battlemetrics.com/"]
         },
         {
             "server_id": "36953953",
-            "server_profile": "PRS RAG",
-            "server_name": "Prisolis Gaming RAG [3x][No Wipe]",
+            "server_profile": "RAG PVE PD",
+            "server_name": "[test name] Prisolis Gaming RAG [3x][No Wipe]",
             "server_ip": "96.225.165.119",
-            "server_port": 7785,
-            "server_manage_urls":["http://localhost:5000/", "https://8d901204-95a3-4381-9436-ed33b00fc3d4.mock.pstmn.io/"]
+            "server_port": 7893,
+            "server_manage_urls":["http://localhost:5000/", "https://api.battlemetrics.com/"]
         },
         {
             "server_id": "36953992",
-            "server_profile": "PRS CLB",
-            "server_name": "Prisolis Gaming CLB [3x][No Wipe]",
+            "server_profile": "VAL PVE PN",
+            "server_name": "[test name] Prisolis Gaming CLB [3x][No Wipe]",
             "server_ip": "96.225.165.119",
-            "server_port": 7805,
-            "server_manage_urls":["http://localhost:5000/", "https://8d901204-95a3-4381-9436-ed33b00fc3d4.mock.pstmn.io/"]
+            "server_port": 7841,
+            "server_manage_urls":["http://localhost:5000/", "https://api.battlemetrics.com/"]
         },
         {
             "server_id": "36953948",
-            "server_profile": "PRS ABB",
-            "server_name": "Prisolis Gaming ABB [3x][No Wipe]",
+            "server_profile": "CTR PVE PD",
+            "server_name": "[test name] Prisolis Gaming ABB [3x][No Wipe]",
             "server_ip": "96.225.165.119",
             "server_port": 7787,
-            "server_manage_urls":["http://localhost:5000/", "https://8d901204-95a3-4381-9436-ed33b00fc3d4.mock.pstmn.io/"]
-        },
-        {
-            "server_id": "36953991",
-            "server_profile": "PRS LCL",
-            "server_name": "Prisolis Gaming LCL [3x][No Wipe]",
-            "server_ip": "96.225.165.119",
-            "server_port": 7803,
-            "server_manage_urls":["http://localhost:5000/", "https://8d901204-95a3-4381-9436-ed33b00fc3d4.mock.pstmn.io/"]
+            "server_manage_urls":["http://localhost:5004/", "https://api.battlemetrics.com/"]
         }
     ]
 }

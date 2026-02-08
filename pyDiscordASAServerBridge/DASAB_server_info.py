@@ -10,6 +10,7 @@ DEFAULT_DISPLAY_FIELDS = {
     "day": "time_i",
 }
 from dataclasses import dataclass, field
+from string import Formatter
 
 _MISSING = object()
 
@@ -25,22 +26,67 @@ class _ValueExtractor:
         return "" if value is None else str(value)
 
     @staticmethod
-    def collect_values(obj, target_keys, found=None):
-        if found is None:
-            found = {}
+    def _normalize_segment(value):
+        return str(value).strip().casefold()
+
+    @staticmethod
+    def _normalize_path(candidate):
+        if candidate is None:
+            return ""
+        parts = [part for part in str(candidate).strip().split(".") if part.strip()]
+        return ".".join(_ValueExtractor._normalize_segment(part) for part in parts)
+
+    @staticmethod
+    def build_index(obj, index=None, path=None):
+        if index is None:
+            index = {"by_key": {}, "by_path": {}}
+        if path is None:
+            path = []
+
         if isinstance(obj, dict):
             for key, value in obj.items():
-                if key in target_keys and key not in found and value is not None:
-                    found[key] = value
-                    if len(found) >= len(target_keys):
-                        return found
-                _ValueExtractor.collect_values(value, target_keys, found)
+                key_norm = _ValueExtractor._normalize_segment(key)
+                current_path = [*path, key_norm]
+                path_key = ".".join(current_path)
+                if value is not None:
+                    index["by_key"].setdefault(key_norm, value)
+                    index["by_path"].setdefault(path_key, value)
+                _ValueExtractor.build_index(value, index, current_path)
         elif isinstance(obj, list):
-            for item in obj:
-                _ValueExtractor.collect_values(item, target_keys, found)
-                if len(found) >= len(target_keys):
-                    return found
-        return found
+            for idx, item in enumerate(obj):
+                current_path = [*path, str(idx)]
+                path_key = ".".join(current_path)
+                if item is not None:
+                    index["by_path"].setdefault(path_key, item)
+                _ValueExtractor.build_index(item, index, current_path)
+        return index
+
+    @staticmethod
+    def _resolve_candidate(candidate, primary_index, secondary_index):
+        if candidate is None:
+            return _MISSING
+
+        candidate_str = str(candidate).strip()
+        if not candidate_str:
+            return _MISSING
+
+        normalized_key = _ValueExtractor._normalize_segment(candidate_str)
+        normalized_path = _ValueExtractor._normalize_path(candidate_str)
+
+        for index in (primary_index, secondary_index):
+            if index is None:
+                continue
+            by_path = index.get("by_path", {})
+            by_key = index.get("by_key", {})
+            if normalized_path and normalized_path in by_path:
+                value = by_path[normalized_path]
+                if value is not None:
+                    return value
+            if normalized_key in by_key:
+                value = by_key[normalized_key]
+                if value is not None:
+                    return value
+        return _MISSING
 
 
 @dataclass(frozen=True, slots=True)
@@ -114,6 +160,7 @@ class DASAB_SERVER_INFO:
         display_template: str = DEFAULT_DISPLAY_TEMPLATE,
         display_fields: dict | None = None,
     ):
+        template = display_template or DEFAULT_DISPLAY_TEMPLATE
         root = data
         if isinstance(data, dict):
             data_obj = data.get("data")
@@ -122,33 +169,26 @@ class DASAB_SERVER_INFO:
                 if isinstance(attributes, dict):
                     root = attributes
 
-        field_map = display_fields if isinstance(display_fields, dict) else DEFAULT_DISPLAY_FIELDS
-        target_keys = set()
-        for key in field_map.values():
-            if isinstance(key, list):
-                target_keys.update(key)
-            else:
-                target_keys.add(key)
+        field_map = dict(display_fields) if isinstance(display_fields, dict) else dict(DEFAULT_DISPLAY_FIELDS)
+        for _, field_name, _, _ in Formatter().parse(template):
+            if field_name and field_name not in field_map:
+                field_map[field_name] = field_name
 
-        root_values = _ValueExtractor.collect_values(root, target_keys)
-        data_values = (
-            _ValueExtractor.collect_values(data, target_keys) if root is not data else root_values
-        )
+        root_index = _ValueExtractor.build_index(root)
+        data_index = _ValueExtractor.build_index(data) if root is not data else root_index
         values = _SafeFormatDict()
 
         for placeholder, key in field_map.items():
+            candidates = list(key) if isinstance(key, list) else [key]
+            if not any(str(candidate).strip() == placeholder for candidate in candidates):
+                candidates.append(placeholder)
             value = _MISSING
-            candidates = key if isinstance(key, list) else [key]
             for candidate in candidates:
-                if candidate in root_values:
-                    value = root_values[candidate]
-                    break
-                if candidate in data_values:
-                    value = data_values[candidate]
+                value = _ValueExtractor._resolve_candidate(candidate, root_index, data_index)
+                if value is not _MISSING:
                     break
             values[placeholder] = "" if value is _MISSING else value
 
-        template = display_template or DEFAULT_DISPLAY_TEMPLATE
         self.str_info = template.format_map(values)
 
         self.id = server_id

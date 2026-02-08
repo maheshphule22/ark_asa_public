@@ -19,6 +19,52 @@ pip install -r requirements.txt
 - Change `SERVERS_TO_WATCH` battlematrix ids of servers you want to watch [ TODO local implementation instead of battlematrix] 
 - Command config: update `DASAB_CFG_CMD.json`
 - Server info config: update `DASAB_CFG_SERVERS.json`
+- `display_fields` supports fallback lists. Example:
+```json
+"name": ["name", "server_name", "server_profile"],
+"ip": ["ip", "server_ip"],
+"port": ["port", "server_port"]
+```
+- For server list responses, missing values can be filled from matching server entries in `DASAB_CFG_SERVERS.json`.
+
+### Optional command response formatting
+Each command in `DASAB_CFG_CMD.json` can include `response_processing` to format backend JSON responses:
+```json
+"response_processing": {
+  "template": "{message}",
+  "fields": {
+    "message": ["message", "detail", "error"]
+  }
+}
+```
+- `template` supports placeholders like `{message}`.
+- `fields` maps placeholders to response keys, fallback list, or dotted paths.
+
+### Optional slash argument metadata
+Each command can include an `arguments` block to rename/describe slash options:
+```json
+"arguments": {
+  "server_filter": {
+    "name": "server",
+    "description": "Server name/profile to target."
+  },
+  "message": {
+    "name": "rcon_message",
+    "description": "RCON command text."
+  }
+}
+```
+- Keys (`server_filter`, `message`) must match function parameter names.
+- This changes slash option names/descriptions when commands are synced.
+
+### Optional single-match guard
+Each command can set:
+```json
+"require_single_match": true
+```
+- Default behavior (when omitted) is `true`.
+- When `true`, command execution fails unless `server_filter` resolves to exactly one server.
+- Recommended: `false` for `server_list`, `true` for start/stop/restart/update/rcon style commands.
 
 ## Run bot
 ```
@@ -26,7 +72,7 @@ python DASAB_disbot.py
 ```
 
 ## Commands (Slash) - names configurable using json - seq is important
-- `/server_list     <search string>` - list available servers having search string or all if search string is empty
+- `/server_list` - list all available servers
 - `/server_start    <search string>` - request server start
 - `/server_stop     <search string>` - request server stop
 - `/server_restart  <search string>` - request server restart
@@ -40,7 +86,8 @@ python DASAB_disbot.py
 - [Done] - Guild ID check -> also added channel checks 
 - [Done] - Timeout to person before starting another server -> added configurable cooldown to all commands
 - [Done] - Update/stop/restart server -> different role specific -> role and channels configurable in json
-- RCON commands - admin role specific - send complete command on RCON
+- [Done] - RCON commands - admin role specific - send complete command on RCON
+- [Done] - 1 command - different roles - different cooldown
 - [Backlog] non admin to admin requests : restart & dino wipe etc - message in different chat/ping admin & admin will run command
     - this can be done with normal discord means - admins then have to send requied commands as per their setup
 - [Future] - watch server status for 2 hours and if no players => shutdown? - differnt list of server

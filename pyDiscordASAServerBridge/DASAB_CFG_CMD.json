@@ -1,14 +1,28 @@
 {
+    
+    "default_discord_controls": [ 
+        {
+            "role": "ArkServerBridge",
+            "cmd_count": 3,
+            "success_cooldown": 30,
+            "failure_cooldown": 3,
+            "allowed_guild_ids": [],
+            "allowed_channel_ids": [879609905030500415]
+        },
+        {
+            "role": "ArkServerBridgeAdmin",
+            "cmd_count": 3,
+            "success_cooldown": 1,
+            "failure_cooldown": 1,
+            "allowed_guild_ids": [],
+            "allowed_channel_ids": [879609905030500415, 1176883372874813510]
+        }
+    ],
     "commands": [
         {
             "name": "server_list",
             "description": "Lists the server matching pattern or all",
-            "role": "ArkServerBridge",
-            "cmd_count": 1,
-            "success_cooldown": 30,
-            "failure_cooldown": 10,
-            "allowed_guild_ids": [],
-            "allowed_channel_ids": [],
+            "require_single_match": false,
             "backend_req": [ 
                 {"type":"GET", "END_PT":"server-status", "Auth":true}, 
                 {"type":"GET", "END_PT":"servers/{$server_id}"}
@@ -17,63 +31,58 @@
         {
             "name": "server_start",
             "description": "Send request to start server",
-            "role": "ArkServerBridge",
-            "cmd_count": 1,
-            "success_cooldown": 3600,
-            "failure_cooldown": 3,
-            "allowed_guild_ids": [],
-            "allowed_channel_ids": [879609905030500415, 1176883372874813510],
-            "backend_req": [ 
-                {"type":"POST", "END_PT":"start", "Auth":true, "Payload":"{'ProfileName': '{$server_profile}'}"},
-                {"type":"POST", "END_PT":"start", "Auth":true, "Payload":"{'ProfileName': '{$server_profile}'}"}
-            ]
+            "arguments": {"server_filter": {"name": "server","description": "Server name/profile to start."}},
+            "backend_req": [ {"type":"POST", "END_PT":"start", "Auth":true, "Payload":"{'profileName': '{$server_profile}'}"} ],
+            "discord_controls": [ 
+                {
+                    "role": "ArkServerBridge",
+                    "cmd_count": 3,
+                    "success_cooldown": 3600,
+                    "failure_cooldown": 10,
+                    "allowed_guild_ids": [],
+                    "allowed_channel_ids": [879609905030500415]
+                },
+                {
+                    "role": "ArkServerBridgeAdmin",
+                    "cmd_count": 3,
+                    "success_cooldown": 1,
+                    "failure_cooldown": 1,
+                    "allowed_guild_ids": [],
+                    "allowed_channel_ids": [879609905030500415, 1176883372874813510]
+                }
+            ],
+            "response_processing": { "template": "{message}", "fields": { "message": ["message", "detail", "error", "Message"] } }
         },
         {
             "name": "server_stop",
             "description": "Send request to shut down server",
-            "role": "ArkServerBridge",
-            "cmd_count": 1,
-            "success_cooldown": 3,
-            "failure_cooldown": 3,
-            "allowed_guild_ids": [],
-            "allowed_channel_ids": [879609905030500415],
-            "backend_req": [ 
-                {"type":"POST", "END_PT":"stop", "Auth":true, "Payload":"{'ProfileName': '{$server_profile}'}"},
-                {"type":"POST", "END_PT":"stop", "Auth":true, "Payload":"{'ProfileName': '{$server_profile}'}"}
-            ]
+            "arguments": {"server_filter": {"name": "server","description": "Server name/profile to stop."}},
+            "backend_req": [ {"type":"POST", "END_PT":"stop", "Auth":true, "Payload":"{'profileName': '{$server_profile}'}"} ],
+            "response_processing": { "template": "{message}", "fields": { "message": ["message", "detail", "error", "Message"] } }
         },
         {
             "name": "server_restart",
             "description": "Send request to restart server",
-            "role": "ArkServerBridge",
-            "cmd_count": 1,
-            "success_cooldown": 3,
-            "failure_cooldown": 3,
-            "allowed_guild_ids": [],
-            "allowed_channel_ids": [879609905030500415],
-            "backend_req": [ {"type":"POST", "END_PT":"restart", "Auth":true, "Payload":"{'ProfileName': '{$server_profile}'}"} ]
+            "arguments": {"server_filter": {"name": "server","description": "Server name/profile to restart."}},
+            "backend_req": [ {"type":"POST", "END_PT":"restart", "Auth":true, "Payload":"{'profileName': '{$server_profile}'}"} ],
+            "response_processing": { "template": "{message}", "fields": { "message": ["message", "detail", "error", "Message"] } }
         },
         {
             "name": "server_update",
             "description": "Send request to update server",
-            "role": "ArkServerBridge",
-            "cmd_count": 1,
-            "success_cooldown": 3,
-            "failure_cooldown": 3,
-            "allowed_guild_ids": [],
-            "allowed_channel_ids": [879609905030500415],
-            "backend_req": [ {"type":"POST", "END_PT":"update", "Auth":true, "Payload":"{'ProfileName': '{$server_profile}'}"} ]
+            "arguments": {"server_filter": {"name": "server","description": "Server name/profile to update."}},
+            "backend_req": [ {"type":"POST", "END_PT":"update", "Auth":true, "Payload":"{'profileName': '{$server_profile}'}"} ],
+            "response_processing": { "template": "{message}", "fields": { "message": ["message", "detail", "error", "Message"] } }
         },
         {
             "name": "send_command",
             "description": "Send command to server",
-            "role": "ArkServerBridge",
-            "cmd_count": 1,
-            "success_cooldown": 10,
-            "failure_cooldown": 3,
-            "allowed_guild_ids": [],
-            "allowed_channel_ids": [879609905030500415],
-            "backend_req": [ {"type":"POST", "END_PT":"rcon", "Auth":true, "Payload":"{'ProfileName': '{$server_profile}','message': '{$message}'}"} ]
+            "arguments": {
+                "server_filter": {"name": "server","description": "Server name/profile to target." },
+                "message": { "name": "rcon_message", "description": "RCON command text."}
+                },
+            "backend_req": [ {"type":"POST", "END_PT":"rcon", "Auth":true, "Payload":"{'profileName': '{$server_profile}','message': '{$message}'}"} ],
+            "response_processing": { "template": "{message}", "fields": { "message": ["message", "detail", "error", "Message"] } }
         }
     ]
 }

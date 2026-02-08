@@ -13,6 +13,7 @@ from DASAB_server_info import (
     DEFAULT_DISPLAY_FIELDS,
     DEFAULT_DISPLAY_TEMPLATE,
 )
+from utils import load_json_file_with_comments
 
 SERVER_CONFIG_PATH = "DASAB_CFG_SERVERS.json"
 ASA_MANAGER_TOKEN_ENV = "ASA_MANAGER_TOKEN"
@@ -29,6 +30,7 @@ DOLLAR_BRACED_PATTERN = re.compile(r"\$\{([A-Za-z_][A-Za-z0-9_]*)\}")
 DOLLAR_PATTERN = re.compile(r"\$([A-Za-z_][A-Za-z0-9_]*)")
 BRACED_PATTERN = re.compile(r"\{([A-Za-z_][A-Za-z0-9_]*)\}")
 BACKEND_LOG_PATH = "DASAB_backend_requests.log"
+_MISSING = object()
 
 
 class _SafeDict(dict):
@@ -62,8 +64,7 @@ class DASAB_SERVER_INFO_MANAGER:
             print(f"Error: Server configuration file '{filename}' not found.")
             return [], DEFAULT_DISPLAY_TEMPLATE, DEFAULT_DISPLAY_FIELDS
         try:
-            with open(filename, 'r') as config_file:
-                data = json.load(config_file)
+            data = load_json_file_with_comments(filename)
             if not isinstance(data, dict):
                 print(f"Error: Server configuration file '{filename}' is not a JSON object.")
                 return [], DEFAULT_DISPLAY_TEMPLATE, DEFAULT_DISPLAY_FIELDS
@@ -91,6 +92,17 @@ class DASAB_SERVER_INFO_MANAGER:
             print(f"Error opening or reading file '{filename}': {e}")
             return [], DEFAULT_DISPLAY_TEMPLATE, DEFAULT_DISPLAY_FIELDS
 
+    def reload_server_configs(self, filename: str = SERVER_CONFIG_PATH) -> int:
+        loaded_configs, loaded_template, loaded_fields = self._load_server_configs(filename)
+        self.server_configs = loaded_configs
+        self.display_template = loaded_template
+        self.display_fields = loaded_fields
+        self._index_server_configs()
+        self.server_info_list = []
+        cache_refreshing = bool(self._cache.get("refreshing", False))
+        self._cache = {"ts": 0.0, "data": "", "refreshing": cache_refreshing}
+        return len(self.server_configs)
+
     def _extract_server_id(self, server_cfg):
         if isinstance(server_cfg, DASAB_SERVER_CONFIG):
             return server_cfg.server_id
@@ -116,6 +128,14 @@ class DASAB_SERVER_INFO_MANAGER:
             return ""
         return f"{ip_val}:{port_val}"
 
+    @staticmethod
+    def _is_blank_value(value):
+        if value is None:
+            return True
+        if isinstance(value, str) and value.strip() == "":
+            return True
+        return False
+
     def _index_server_configs(self):
         self._config_by_id = {}
         self._config_by_profile = {}
@@ -126,12 +146,91 @@ class DASAB_SERVER_INFO_MANAGER:
             id_key = self._normalize_id(cfg.server_id)
             if id_key and id_key not in self._config_by_id:
                 self._config_by_id[id_key] = cfg
-            profile_key = self._normalize_profile(cfg.server_profile)
-            if profile_key and profile_key not in self._config_by_profile:
-                self._config_by_profile[profile_key] = cfg
+            for profile_candidate in (cfg.server_profile, cfg.server_name):
+                profile_key = self._normalize_profile(profile_candidate)
+                if profile_key and profile_key not in self._config_by_profile:
+                    self._config_by_profile[profile_key] = cfg
             ip_port_key = self._normalize_ip_port(cfg.server_ip, cfg.server_port)
             if ip_port_key and ip_port_key not in self._config_by_ip_port:
                 self._config_by_ip_port[ip_port_key] = cfg
+
+    def _find_config_for_payload_item(self, item: dict):
+        if not isinstance(item, dict):
+            return None
+
+        id_candidates = (
+            "id",
+            "server_id",
+            "serverId",
+            "serverID",
+            "battlemetrics_id",
+        )
+        for key in id_candidates:
+            id_key = self._normalize_id(item.get(key))
+            if id_key and id_key in self._config_by_id:
+                return self._config_by_id[id_key]
+
+        profile_candidates = (
+            "server_profile",
+            "profile",
+            "ProfileName",
+            "profileName",
+            "name",
+            "Name",
+            "server_name",
+        )
+        for key in profile_candidates:
+            profile_key = self._normalize_profile(item.get(key))
+            if profile_key and profile_key in self._config_by_profile:
+                return self._config_by_profile[profile_key]
+
+        ip_value = None
+        port_value = None
+        for key in ("ip", "server_ip", "IP", "host"):
+            value = item.get(key)
+            if not self._is_blank_value(value):
+                ip_value = value
+                break
+        for key in ("port", "server_port", "Port", "gamePort"):
+            value = item.get(key)
+            if not self._is_blank_value(value):
+                port_value = value
+                break
+
+        ip_port_key = self._normalize_ip_port(ip_value, port_value)
+        if ip_port_key and ip_port_key in self._config_by_ip_port:
+            return self._config_by_ip_port[ip_port_key]
+        return None
+
+    def _merge_item_with_config_fallback(self, item: dict, cfg: DASAB_SERVER_CONFIG | None):
+        if not isinstance(item, dict) or cfg is None:
+            return item
+
+        merged = dict(item)
+        config_values = {
+            "server_id": cfg.server_id,
+            "server_profile": cfg.server_profile,
+            "server_name": cfg.server_name,
+            "server_ip": cfg.server_ip,
+            "server_port": cfg.server_port if cfg.server_port is not None else "",
+            "name": cfg.server_name or cfg.server_profile,
+            "ip": cfg.server_ip,
+            "port": cfg.server_port if cfg.server_port is not None else "",
+        }
+
+        for key, value in config_values.items():
+            if self._is_blank_value(merged.get(key)) and not self._is_blank_value(value):
+                merged[key] = value
+
+        if self._is_blank_value(merged.get("config")):
+            merged["config"] = {
+                "server_id": cfg.server_id,
+                "server_profile": cfg.server_profile,
+                "server_name": cfg.server_name,
+                "server_ip": cfg.server_ip,
+                "server_port": cfg.server_port if cfg.server_port is not None else "",
+            }
+        return merged
 
     def _find_config_for_info(self, server_info: DASAB_SERVER_INFO):
         if server_info is None:
@@ -166,6 +265,143 @@ class DASAB_SERVER_INFO_MANAGER:
         result = BRACED_PATTERN.sub(repl, result)
         return result
 
+    @staticmethod
+    def _normalize_lookup_segment(value):
+        return str(value).strip().casefold()
+
+    @staticmethod
+    def _normalize_lookup_path(value):
+        if value is None:
+            return ""
+        parts = [part for part in str(value).strip().split(".") if part.strip()]
+        return ".".join(DASAB_SERVER_INFO_MANAGER._normalize_lookup_segment(part) for part in parts)
+
+    def _build_lookup_index(self, obj, index=None, path=None):
+        if index is None:
+            index = {"by_key": {}, "by_path": {}}
+        if path is None:
+            path = []
+
+        if isinstance(obj, dict):
+            for key, value in obj.items():
+                key_norm = self._normalize_lookup_segment(key)
+                current_path = [*path, key_norm]
+                path_key = ".".join(current_path)
+                if value is not None:
+                    index["by_key"].setdefault(key_norm, value)
+                    index["by_path"].setdefault(path_key, value)
+                self._build_lookup_index(value, index, current_path)
+        elif isinstance(obj, list):
+            for idx, item in enumerate(obj):
+                current_path = [*path, str(idx)]
+                path_key = ".".join(current_path)
+                if item is not None:
+                    index["by_path"].setdefault(path_key, item)
+                self._build_lookup_index(item, index, current_path)
+        return index
+
+    def _resolve_response_value(self, index: dict, candidate):
+        if candidate is None:
+            return _MISSING
+        candidate_text = str(candidate).strip()
+        if not candidate_text:
+            return _MISSING
+
+        normalized_key = self._normalize_lookup_segment(candidate_text)
+        normalized_path = self._normalize_lookup_path(candidate_text)
+        by_path = index.get("by_path", {})
+        by_key = index.get("by_key", {})
+
+        if normalized_path and normalized_path in by_path and by_path[normalized_path] is not None:
+            return by_path[normalized_path]
+        if normalized_key in by_key and by_key[normalized_key] is not None:
+            return by_key[normalized_key]
+        return _MISSING
+
+    def _extract_template_tokens(self, template: str):
+        tokens = set()
+        if not template:
+            return tokens
+        for pattern in (BRACED_DOLLAR_PATTERN, DOLLAR_BRACED_PATTERN, DOLLAR_PATTERN, BRACED_PATTERN):
+            for match in pattern.finditer(template):
+                token = match.group(1)
+                if token:
+                    tokens.add(token)
+        return tokens
+
+    def _format_response_item(self, payload, response_processing: dict):
+        if not isinstance(response_processing, dict):
+            return None
+        template = str(response_processing.get("template", "") or "").strip()
+        if not template:
+            return None
+
+        fields = response_processing.get("fields", {})
+        if not isinstance(fields, dict):
+            fields = {}
+
+        placeholders = self._extract_template_tokens(template)
+        if not placeholders:
+            placeholders = set(fields.keys())
+
+        index = self._build_lookup_index(payload)
+        context = {}
+        for placeholder in placeholders:
+            mapping = fields.get(placeholder, placeholder)
+            candidates = list(mapping) if isinstance(mapping, list) else [mapping]
+            if not any(str(candidate).strip() == placeholder for candidate in candidates):
+                candidates.append(placeholder)
+
+            value = _MISSING
+            for candidate in candidates:
+                value = self._resolve_response_value(index, candidate)
+                if value is not _MISSING:
+                    break
+
+            if value is _MISSING or value is None:
+                context[placeholder] = ""
+            elif isinstance(value, (dict, list)):
+                context[placeholder] = json.dumps(value, ensure_ascii=False)
+            else:
+                context[placeholder] = value
+
+        return self._render_template(template, context)
+
+    def _format_response_payload(self, payload, response_processing: dict | None):
+        if not isinstance(response_processing, dict):
+            return None
+
+        join_with = response_processing.get("join_with", "\n")
+        if not isinstance(join_with, str):
+            join_with = "\n"
+
+        if isinstance(payload, list):
+            list_cfg = dict(response_processing)
+            item_template = list_cfg.get("item_template")
+            if isinstance(item_template, str) and item_template.strip():
+                list_cfg["template"] = item_template
+            elif not isinstance(list_cfg.get("template"), str) or not str(list_cfg.get("template")).strip():
+                return None
+
+            lines = []
+            for item in payload:
+                if not isinstance(item, (dict, list)):
+                    continue
+                line = self._format_response_item(item, list_cfg)
+                if line is not None and line.strip():
+                    lines.append(line)
+            if lines:
+                return join_with.join(lines)
+            return None
+
+        if isinstance(payload, dict):
+            line = self._format_response_item(payload, response_processing)
+            if line is not None and line.strip():
+                return line
+            return None
+
+        return None
+
     def _try_parse_json(self, text: str):
         if not text:
             return None
@@ -194,13 +430,16 @@ class DASAB_SERVER_INFO_MANAGER:
         for item in items:
             if not isinstance(item, dict):
                 continue
-            server_id = item.get("id") or item.get("server_id") or ""
+            cfg = self._find_config_for_payload_item(item)
+            item_with_fallback = self._merge_item_with_config_fallback(item, cfg)
+            server_id = item_with_fallback.get("id") or item_with_fallback.get("server_id") or ""
             info = DASAB_SERVER_INFO(
                 server_id,
-                item,
+                item_with_fallback,
                 self.display_template,
                 self.display_fields,
             )
+            info.config = cfg
             if info.str_info:
                 lines.append(info.str_info)
         if not lines:
@@ -316,6 +555,7 @@ class DASAB_SERVER_INFO_MANAGER:
         base_urls: list[str],
         context: dict,
         server_filter: str,
+        response_processing: dict | None = None,
     ):
         method = str(req_cfg.get("type", "GET")).upper()
         end_pt = str(req_cfg.get("END_PT", "")).strip()
@@ -328,22 +568,37 @@ class DASAB_SERVER_INFO_MANAGER:
         if not base_urls:
             return False, "Failed. No server_manage_urls configured."
 
+        last_failure_response = ""
         for base_url in base_urls:
             url = base_url.rstrip("/")
             if end_pt:
                 url = f"{url}/{end_pt.lstrip('/')}"
             resp = self._call_backend(method, url, payload, auth)
             if isinstance(resp, Exception):
+                last_failure_response = f"Failed. {method} request failed for {url}: {resp}"
                 continue
+
+            body = resp.text or ""
+            parsed = self._try_parse_json(body)
+            processed = self._format_response_payload(parsed, response_processing) if parsed is not None else None
+
             if 200 <= resp.status_code < 300:
-                body = resp.text or ""
-                parsed = self._try_parse_json(body)
+                if processed:
+                    return True, "Success.\n" + processed
                 formatted = self._format_server_list_payload(parsed, server_filter) if parsed is not None else None
                 if formatted:
                     return True, formatted
                 if body:
                     return True, "Success.\n" + body
                 return True, "Success."
+
+            if processed:
+                last_failure_response = "Failed.\n" + processed
+            elif body:
+                last_failure_response = "Failed.\n" + body[:2000]
+
+        if last_failure_response:
+            return False, last_failure_response
         return False, f"Failed. {method} request failed for all configured URLs."
 
     def _match_server_configs(self, server_filter: str):
@@ -366,11 +621,28 @@ class DASAB_SERVER_INFO_MANAGER:
                 matches.append(cfg)
         return matches
 
+    def _format_server_match(self, cfg: DASAB_SERVER_CONFIG):
+        if not isinstance(cfg, DASAB_SERVER_CONFIG):
+            return ""
+        primary = cfg.server_name or cfg.server_profile or cfg.server_id or "unknown"
+        details = []
+        if cfg.server_profile:
+            details.append(f"profile={cfg.server_profile}")
+        if cfg.server_id:
+            details.append(f"id={cfg.server_id}")
+        if cfg.server_ip and cfg.server_port:
+            details.append(f"{cfg.server_ip}:{cfg.server_port}")
+        if details:
+            return primary + " (" + ", ".join(details) + ")"
+        return primary
+
     def execute_backend_req(
         self,
         server_filter: str,
         backend_req: list[dict],
         message: str | None = None,
+        response_processing: dict | None = None,
+        require_single_match: bool = False,
     ):
         if not backend_req:
             return "Failed. No backend_req configured."
@@ -378,6 +650,15 @@ class DASAB_SERVER_INFO_MANAGER:
         matches = self._match_server_configs(server_filter)
         if not matches:
             return f"Failed. No server match for: {server_filter}"
+        if require_single_match and len(matches) != 1:
+            preview = [self._format_server_match(cfg) for cfg in matches[:10]]
+            if len(matches) > 10:
+                preview.append(f"... and {len(matches) - 10} more")
+            if server_filter and server_filter.strip():
+                header = f"Failed. Filter '{server_filter}' matched {len(matches)} servers. Please be more specific:"
+            else:
+                header = f"Failed. Command requires exactly 1 server, but matched {len(matches)}. Please specify server:"
+            return header + "\n" + "\n".join(preview)
 
         for req_cfg in backend_req:
             if self._req_needs_server(req_cfg):
@@ -389,6 +670,7 @@ class DASAB_SERVER_INFO_MANAGER:
                         cfg.server_manage_urls,
                         context,
                         server_filter,
+                        response_processing,
                     )
                     if ok:
                         responses.append(response)
@@ -406,13 +688,13 @@ class DASAB_SERVER_INFO_MANAGER:
                     base_urls,
                     context,
                     server_filter,
+                    response_processing,
                 )
                 if ok:
                     return response
 
         return "Failed. All backend_req attempts failed."
 
-    # TODO implement server listing locally instead of battlematrix for better performance
     def get_server_info(self, server_id = ""):
         url = f"https://api.battlemetrics.com/servers/{server_id}"
         try:
